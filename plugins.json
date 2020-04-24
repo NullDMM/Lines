@@ -1,0 +1,1274 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  <link rel="dns-prefetch" href="https://github.githubassets.com">
+  <link rel="dns-prefetch" href="https://avatars0.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars1.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars2.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars3.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
+  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+
+
+
+  <link crossorigin="anonymous" media="all" integrity="sha512-FG+rXqMOivrAjdEQE7tO4BwM1poGmg70hJFTlNSxjX87grtrZ6UnPR8NkzwUHlQEGviu9XuRYeO8zH9YwvZhdg==" rel="stylesheet" href="https://github.githubassets.com/assets/frameworks-146fab5ea30e8afac08dd11013bb4ee0.css" />
+  
+    <link crossorigin="anonymous" media="all" integrity="sha512-bqIvTjrYM8hmo8Y7y5fzsxn+OAFrHWG6byMAbBSM9qFe8NQymQqFeBaF2MGvAwy7x2s4bnzXE5bDGHnrQjtoQQ==" rel="stylesheet" href="https://github.githubassets.com/assets/github-6ea22f4e3ad833c866a3c63bcb97f3b3.css" />
+    
+    
+    
+    
+
+
+  <meta name="viewport" content="width=device-width">
+  
+  <title>plugins-release/plugins.json at master · xKylee/plugins-release</title>
+    <meta name="description" content="External OpenOSRS plugins (release). Contribute to xKylee/plugins-release development by creating an account on GitHub.">
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+  <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+  <meta property="fb:app_id" content="1401488693436528">
+
+    <meta name="twitter:image:src" content="https://avatars0.githubusercontent.com/u/48519776?s=400&amp;v=4" /><meta name="twitter:site" content="@github" /><meta name="twitter:card" content="summary" /><meta name="twitter:title" content="xKylee/plugins-release" /><meta name="twitter:description" content="External OpenOSRS plugins (release). Contribute to xKylee/plugins-release development by creating an account on GitHub." />
+    <meta property="og:image" content="https://avatars0.githubusercontent.com/u/48519776?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="xKylee/plugins-release" /><meta property="og:url" content="https://github.com/xKylee/plugins-release" /><meta property="og:description" content="External OpenOSRS plugins (release). Contribute to xKylee/plugins-release development by creating an account on GitHub." />
+
+  <link rel="assets" href="https://github.githubassets.com/">
+  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6NTI3MDMyNjM2OjQ1NWRkZTNlMDcxZDc3MDI0MGMyNWZlNzI4MDIzMDFhZTU4NDg2YmVmY2QyZjMzZDY3NzdiNGNiODMxODBlNzQ=--2713349ca8cc1509226785f25a378b0779ab51c1">
+  <link rel="sudo-modal" href="/sessions/sudo_modal">
+
+  <meta name="request-id" content="D15C:27659:191BD83:236379B:5EA32F2E" data-pjax-transient="true" /><meta name="html-safe-nonce" content="b8cc52f8ba1f7c19f13faef0c10a5a645b0313ce" data-pjax-transient="true" /><meta name="visitor-payload" content="eyJyZWZlcnJlciI6Imh0dHBzOi8vZ2l0aHViLmNvbS94S3lsZWUvcGx1Z2lucy1yZWxlYXNlIiwicmVxdWVzdF9pZCI6IkQxNUM6Mjc2NTk6MTkxQkQ4MzoyMzYzNzlCOjVFQTMyRjJFIiwidmlzaXRvcl9pZCI6IjU5NTkxOTYzNDgwMDk1NTgxOTIiLCJyZWdpb25fZWRnZSI6ImFtcyIsInJlZ2lvbl9yZW5kZXIiOiJpYWQifQ==" data-pjax-transient="true" /><meta name="visitor-hmac" content="a2a7d67730bf62d6e3675543c82abdb2d8a16702f4ceb61a83192e7646e6379c" data-pjax-transient="true" />
+
+
+
+  <meta name="github-keyboard-shortcuts" content="repository,source-code" data-pjax-transient="true" />
+
+  
+
+  <meta name="selected-link" value="repo_source" data-pjax-transient>
+
+    <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+  <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
+  <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
+
+<meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-ga_id" content="" class="js-octo-ga-id" /><meta name="octolytics-actor-id" content="64279111" /><meta name="octolytics-actor-login" content="NullDMM" /><meta name="octolytics-actor-hash" content="a7b6fc51312bd60a3a382c452637b66774749fdefacdc0172e151d80ae54fd8b" />
+<meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" />
+
+
+
+    <meta name="google-analytics" content="UA-3769691-2">
+
+  <meta class="js-ga-set" name="userId" content="b01b3e8cfae6d0e59de92e6eeb06c3d4">
+
+<meta class="js-ga-set" name="dimension1" content="Logged In">
+
+
+
+  
+
+      <meta name="hostname" content="github.com">
+    <meta name="user-login" content="NullDMM">
+
+      <meta name="expected-hostname" content="github.com">
+
+      <meta name="js-proxy-site-detection-payload" content="ODEwMWIzZjFhMWJhOThiMmI2NTdjMWNhMDkxZjFiNjNkYTIxOTI1ODM1MWJkOTIwYTU4N2RmNzhmZTUyMWFmZHx7InJlbW90ZV9hZGRyZXNzIjoiODIuMjMuMjA1LjE2MyIsInJlcXVlc3RfaWQiOiJEMTVDOjI3NjU5OjE5MUJEODM6MjM2Mzc5Qjo1RUEzMkYyRSIsInRpbWVzdGFtcCI6MTU4Nzc1Mjc1NCwiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
+
+    <meta name="enabled-features" content="MARKETPLACE_SOCIAL_PROOF_CUSTOMERS,MARKETPLACE_TRENDING_SOCIAL_PROOF,MARKETPLACE_RECOMMENDATIONS,MARKETPLACE_PENDING_INSTALLATIONS,GHE_CLOUD_TRIAL,PAGE_STALE_CHECK">
+
+  <meta http-equiv="x-pjax-version" content="2bbfba52e521bb8ff0952ceb7baa307e">
+  
+
+      <link href="https://github.com/xKylee/plugins-release/commits/master.atom" rel="alternate" title="Recent Commits to plugins-release:master" type="application/atom+xml">
+
+  <meta name="go-import" content="github.com/xKylee/plugins-release git https://github.com/xKylee/plugins-release.git">
+
+  <meta name="octolytics-dimension-user_id" content="48519776" /><meta name="octolytics-dimension-user_login" content="xKylee" /><meta name="octolytics-dimension-repository_id" content="239634949" /><meta name="octolytics-dimension-repository_nwo" content="xKylee/plugins-release" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="239634949" /><meta name="octolytics-dimension-repository_network_root_nwo" content="xKylee/plugins-release" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
+
+
+    <link rel="canonical" href="https://github.com/xKylee/plugins-release/blob/master/plugins.json" data-pjax-transient>
+
+
+  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+
+  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+
+  <link rel="mask-icon" href="https://github.githubassets.com/pinned-octocat.svg" color="#000000">
+  <link rel="alternate icon" class="js-site-favicon" type="image/png" href="https://github.githubassets.com/favicons/favicon.png">
+  <link rel="icon" class="js-site-favicon" type="image/svg+xml" href="https://github.githubassets.com/favicons/favicon.svg">
+
+<meta name="theme-color" content="#1e2327">
+
+
+  <link rel="manifest" href="/manifest.json" crossOrigin="use-credentials">
+
+  </head>
+
+  <body class="logged-in env-production page-responsive page-blob">
+    
+
+    <div class="position-relative js-header-wrapper ">
+      <a href="#start-of-content" class="p-3 bg-blue text-white show-on-focus js-skip-to-content">Skip to content</a>
+      <span class="Progress progress-pjax-loader position-fixed width-full js-pjax-loader-bar">
+        <span class="progress-pjax-loader-bar top-0 left-0" style="width: 0%;"></span>
+      </span>
+
+      
+      
+
+
+
+          <header class="Header py-lg-0 js-details-container Details flex-wrap flex-lg-nowrap p-responsive" role="banner">
+  <div class="Header-item d-none d-lg-flex">
+    <a class="Header-link" href="https://github.com/" data-hotkey="g d"
+  aria-label="Homepage " data-ga-click="Header, go to dashboard, icon:logo">
+  <svg class="octicon octicon-mark-github v-align-middle" height="32" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>
+</a>
+
+  </div>
+
+  <div class="Header-item d-lg-none">
+    <button class="Header-link btn-link js-details-target" type="button" aria-label="Toggle navigation" aria-expanded="false">
+      <svg height="24" class="octicon octicon-three-bars" viewBox="0 0 12 16" version="1.1" width="18" aria-hidden="true"><path fill-rule="evenodd" d="M11.41 9H.59C0 9 0 8.59 0 8c0-.59 0-1 .59-1H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1h.01zm0-4H.59C0 5 0 4.59 0 4c0-.59 0-1 .59-1H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1h.01zM.59 11H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1H.59C0 13 0 12.59 0 12c0-.59 0-1 .59-1z"></path></svg>
+    </button>
+  </div>
+
+  <div class="Header-item Header-item--full flex-column flex-lg-row width-full flex-order-2 flex-lg-order-none mr-0 mr-lg-3 mt-3 mt-lg-0 Details-content--hidden">
+      <div class="header-search flex-self-stretch flex-lg-self-auto mr-0 mr-lg-3 mb-3 mb-lg-0 scoped-search site-scoped-search js-site-search position-relative js-jump-to"
+  role="combobox"
+  aria-owns="jump-to-results"
+  aria-label="Search or jump to"
+  aria-haspopup="listbox"
+  aria-expanded="false"
+>
+  <div class="position-relative">
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-site-search-form" role="search" aria-label="Site" data-scope-type="Repository" data-scope-id="239634949" data-scoped-search-url="/xKylee/plugins-release/search" data-unscoped-search-url="/search" action="/xKylee/plugins-release/search" accept-charset="UTF-8" method="get">
+      <label class="form-control input-sm header-search-wrapper p-0 header-search-wrapper-jump-to position-relative d-flex flex-justify-between flex-items-center js-chromeless-input-container">
+        <input type="text"
+          class="form-control input-sm header-search-input jump-to-field js-jump-to-field js-site-search-focus js-site-search-field is-clearable"
+          data-hotkey="s,/"
+          name="q"
+          value=""
+          placeholder="Search or jump to…"
+          data-unscoped-placeholder="Search or jump to…"
+          data-scoped-placeholder="Search or jump to…"
+          autocapitalize="off"
+          aria-autocomplete="list"
+          aria-controls="jump-to-results"
+          aria-label="Search or jump to…"
+          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations"
+          spellcheck="false"
+          autocomplete="off"
+          >
+          <input type="hidden" value="juXDjvjOZ1w+P6klKvIPPMxZit7nW6Baq89fPHmpGdicu9CKzH7r3SozCWkQmzCygi9bQczJLqjJIOJ2YTn5XA==" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" />
+          <input type="hidden" class="js-site-search-type-field" name="type" >
+            <img src="https://github.githubassets.com/images/search-key-slash.svg" alt="" class="mr-2 header-search-key-slash">
+
+            <div class="Box position-absolute overflow-hidden d-none jump-to-suggestions js-jump-to-suggestions-container">
+              
+<ul class="d-none js-jump-to-suggestions-template-container">
+  
+
+<li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-suggestion" role="option">
+  <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="">
+    <div class="jump-to-octicon js-jump-to-octicon flex-shrink-0 mr-2 text-center d-none">
+      <svg height="16" width="16" class="octicon octicon-repo flex-shrink-0 js-jump-to-octicon-repo d-none" title="Repository" aria-label="Repository" viewBox="0 0 12 16" version="1.1" role="img"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"></path></svg>
+      <svg height="16" width="16" class="octicon octicon-project flex-shrink-0 js-jump-to-octicon-project d-none" title="Project" aria-label="Project" viewBox="0 0 15 16" version="1.1" role="img"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 00-1 1v14a1 1 0 001 1h13a1 1 0 001-1V1a1 1 0 00-1-1z"></path></svg>
+      <svg height="16" width="16" class="octicon octicon-search flex-shrink-0 js-jump-to-octicon-search d-none" title="Search" aria-label="Search" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M15.7 13.3l-3.81-3.83A5.93 5.93 0 0013 6c0-3.31-2.69-6-6-6S1 2.69 1 6s2.69 6 6 6c1.3 0 2.48-.41 3.47-1.11l3.83 3.81c.19.2.45.3.7.3.25 0 .52-.09.7-.3a.996.996 0 000-1.41v.01zM7 10.7c-2.59 0-4.7-2.11-4.7-4.7 0-2.59 2.11-4.7 4.7-4.7 2.59 0 4.7 2.11 4.7 4.7 0 2.59-2.11 4.7-4.7 4.7z"></path></svg>
+    </div>
+
+    <img class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" alt="" aria-label="Team" src="" width="28" height="28">
+
+    <div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
+    </div>
+
+    <div class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none js-jump-to-badge-search">
+      <span class="js-jump-to-badge-search-text-default d-none" aria-label="in this repository">
+        In this repository
+      </span>
+      <span class="js-jump-to-badge-search-text-global d-none" aria-label="in all of GitHub">
+        All GitHub
+      </span>
+      <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+
+    <div aria-hidden="true" class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
+      Jump to
+      <span class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+  </a>
+</li>
+
+</ul>
+
+<ul class="d-none js-jump-to-no-results-template-container">
+  <li class="d-flex flex-justify-center flex-items-center f5 d-none js-jump-to-suggestion p-2">
+    <span class="text-gray">No suggested jump to results</span>
+  </li>
+</ul>
+
+<ul id="jump-to-results" role="listbox" class="p-0 m-0 js-navigation-container jump-to-suggestions-results-container js-jump-to-suggestions-results-container">
+  
+
+<li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-scoped-search d-none" role="option">
+  <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="">
+    <div class="jump-to-octicon js-jump-to-octicon flex-shrink-0 mr-2 text-center d-none">
+      <svg height="16" width="16" class="octicon octicon-repo flex-shrink-0 js-jump-to-octicon-repo d-none" title="Repository" aria-label="Repository" viewBox="0 0 12 16" version="1.1" role="img"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"></path></svg>
+      <svg height="16" width="16" class="octicon octicon-project flex-shrink-0 js-jump-to-octicon-project d-none" title="Project" aria-label="Project" viewBox="0 0 15 16" version="1.1" role="img"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 00-1 1v14a1 1 0 001 1h13a1 1 0 001-1V1a1 1 0 00-1-1z"></path></svg>
+      <svg height="16" width="16" class="octicon octicon-search flex-shrink-0 js-jump-to-octicon-search d-none" title="Search" aria-label="Search" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M15.7 13.3l-3.81-3.83A5.93 5.93 0 0013 6c0-3.31-2.69-6-6-6S1 2.69 1 6s2.69 6 6 6c1.3 0 2.48-.41 3.47-1.11l3.83 3.81c.19.2.45.3.7.3.25 0 .52-.09.7-.3a.996.996 0 000-1.41v.01zM7 10.7c-2.59 0-4.7-2.11-4.7-4.7 0-2.59 2.11-4.7 4.7-4.7 2.59 0 4.7 2.11 4.7 4.7 0 2.59-2.11 4.7-4.7 4.7z"></path></svg>
+    </div>
+
+    <img class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" alt="" aria-label="Team" src="" width="28" height="28">
+
+    <div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
+    </div>
+
+    <div class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none js-jump-to-badge-search">
+      <span class="js-jump-to-badge-search-text-default d-none" aria-label="in this repository">
+        In this repository
+      </span>
+      <span class="js-jump-to-badge-search-text-global d-none" aria-label="in all of GitHub">
+        All GitHub
+      </span>
+      <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+
+    <div aria-hidden="true" class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
+      Jump to
+      <span class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+  </a>
+</li>
+
+  
+
+<li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-global-search d-none" role="option">
+  <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="">
+    <div class="jump-to-octicon js-jump-to-octicon flex-shrink-0 mr-2 text-center d-none">
+      <svg height="16" width="16" class="octicon octicon-repo flex-shrink-0 js-jump-to-octicon-repo d-none" title="Repository" aria-label="Repository" viewBox="0 0 12 16" version="1.1" role="img"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"></path></svg>
+      <svg height="16" width="16" class="octicon octicon-project flex-shrink-0 js-jump-to-octicon-project d-none" title="Project" aria-label="Project" viewBox="0 0 15 16" version="1.1" role="img"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 00-1 1v14a1 1 0 001 1h13a1 1 0 001-1V1a1 1 0 00-1-1z"></path></svg>
+      <svg height="16" width="16" class="octicon octicon-search flex-shrink-0 js-jump-to-octicon-search d-none" title="Search" aria-label="Search" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M15.7 13.3l-3.81-3.83A5.93 5.93 0 0013 6c0-3.31-2.69-6-6-6S1 2.69 1 6s2.69 6 6 6c1.3 0 2.48-.41 3.47-1.11l3.83 3.81c.19.2.45.3.7.3.25 0 .52-.09.7-.3a.996.996 0 000-1.41v.01zM7 10.7c-2.59 0-4.7-2.11-4.7-4.7 0-2.59 2.11-4.7 4.7-4.7 2.59 0 4.7 2.11 4.7 4.7 0 2.59-2.11 4.7-4.7 4.7z"></path></svg>
+    </div>
+
+    <img class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" alt="" aria-label="Team" src="" width="28" height="28">
+
+    <div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
+    </div>
+
+    <div class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none js-jump-to-badge-search">
+      <span class="js-jump-to-badge-search-text-default d-none" aria-label="in this repository">
+        In this repository
+      </span>
+      <span class="js-jump-to-badge-search-text-global d-none" aria-label="in all of GitHub">
+        All GitHub
+      </span>
+      <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+
+    <div aria-hidden="true" class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
+      Jump to
+      <span class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+  </a>
+</li>
+
+
+    <li class="d-flex flex-justify-center flex-items-center p-0 f5 js-jump-to-suggestion">
+      <img src="https://github.githubassets.com/images/spinners/octocat-spinner-128.gif" alt="Octocat Spinner Icon" class="m-2" width="28">
+    </li>
+</ul>
+
+            </div>
+      </label>
+</form>  </div>
+</div>
+
+
+    <nav class="d-flex flex-column flex-lg-row flex-self-stretch flex-lg-self-auto" aria-label="Global">
+    <a class="Header-link py-lg-3 d-block d-lg-none py-2 border-top border-lg-top-0 border-white-fade-15" data-ga-click="Header, click, Nav menu - item:dashboard:user" aria-label="Dashboard" href="/dashboard">
+      Dashboard
+</a>
+  <a class="js-selected-navigation-item Header-link py-lg-3  mr-0 mr-lg-3 py-2 border-top border-lg-top-0 border-white-fade-15" data-hotkey="g p" data-ga-click="Header, click, Nav menu - item:pulls context:user" aria-label="Pull requests you created" data-selected-links="/pulls /pulls/assigned /pulls/mentioned /pulls" href="/pulls">
+    Pull requests
+</a>
+  <a class="js-selected-navigation-item Header-link py-lg-3  mr-0 mr-lg-3 py-2 border-top border-lg-top-0 border-white-fade-15" data-hotkey="g i" data-ga-click="Header, click, Nav menu - item:issues context:user" aria-label="Issues you created" data-selected-links="/issues /issues/assigned /issues/mentioned /issues" href="/issues">
+    Issues
+</a>
+
+    <div class="mr-0 mr-lg-3 py-2 py-lg-0 border-top border-lg-top-0 border-white-fade-15">
+      <a class="js-selected-navigation-item Header-link py-lg-3 d-inline-block" data-ga-click="Header, click, Nav menu - item:marketplace context:user" data-octo-click="marketplace_click" data-octo-dimensions="location:nav_bar" data-selected-links=" /marketplace" href="/marketplace">
+        Marketplace
+</a>      
+
+    </div>
+
+  <a class="js-selected-navigation-item Header-link py-lg-3  mr-0 mr-lg-3 py-2 border-top border-lg-top-0 border-white-fade-15" data-ga-click="Header, click, Nav menu - item:explore" data-selected-links="/explore /trending /trending/developers /integrations /integrations/feature/code /integrations/feature/collaborate /integrations/feature/ship showcases showcases_search showcases_landing /explore" href="/explore">
+    Explore
+</a>
+
+
+    <a class="Header-link d-block d-lg-none mr-0 mr-lg-3 py-2 py-lg-3 border-top border-lg-top-0 border-white-fade-15" href="https://github.com/NullDMM">
+      <img class="avatar avatar-user" height="20" width="20" alt="@NullDMM" src="https://avatars1.githubusercontent.com/u/64279111?s=60&amp;v=4" />
+      NullDMM
+</a>
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="7y49+0U9oCaG2X6snVpQxfRjiWzTZ7QTJslA8BdS6ZvXuajTU9yuZx1vi9HtR0LWHcBSxnuAGyg+7T13fZRj/Q==" />
+      <button type="submit" class="Header-link mr-0 mr-lg-3 py-2 py-lg-3 border-top border-lg-top-0 border-white-fade-15 d-lg-none btn-link d-block width-full text-left" data-ga-click="Header, sign out, icon:logout" style="padding-left: 2px;">
+        <svg class="octicon octicon-sign-out v-align-middle" viewBox="0 0 16 17" version="1.1" width="16" height="17" aria-hidden="true"><path fill-rule="evenodd" d="M12 9V7H8V5h4V3l4 3-4 3zm-2 3H6V3L2 1h8v3h1V1c0-.55-.45-1-1-1H1C.45 0 0 .45 0 1v11.38c0 .39.22.73.55.91L6 16.01V13h4c.55 0 1-.45 1-1V8h-1v4z"></path></svg>
+        Sign out
+      </button>
+</form></nav>
+
+  </div>
+
+  <div class="Header-item Header-item--full flex-justify-center d-lg-none position-relative">
+    <div class="css-truncate css-truncate-target width-fit position-absolute left-0 right-0 text-center">
+                <svg class="octicon octicon-repo" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"></path></svg>
+    <a class="Header-link" href="/xKylee">xKylee</a>
+    /
+    <a class="Header-link" href="/xKylee/plugins-release">plugins-release</a>
+
+</div>
+  </div>
+
+  <div class="Header-item mr-0 mr-lg-3 flex-order-1 flex-lg-order-none">
+    
+
+    <a aria-label="You have no unread notifications" class="Header-link notification-indicator position-relative tooltipped tooltipped-sw js-socket-channel js-notification-indicator" data-hotkey="g n" data-ga-click="Header, go to notifications, icon:read" data-channel="notification-changed:64279111" href="/notifications">
+        <span class="js-indicator-modifier mail-status "></span>
+        <svg class="octicon octicon-bell" viewBox="0 0 15 16" version="1.1" width="15" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 12v1H0v-1l.73-.58c.77-.77.81-2.55 1.19-4.42C2.69 3.23 6 2 6 2c0-.55.45-1 1-1s1 .45 1 1c0 0 3.39 1.23 4.16 5 .38 1.88.42 3.66 1.19 4.42l.66.58H14zm-7 4c1.11 0 2-.89 2-2H5c0 1.11.89 2 2 2z"></path></svg>
+</a>
+  </div>
+
+
+  <div class="Header-item position-relative d-none d-lg-flex">
+    <details class="details-overlay details-reset">
+  <summary class="Header-link"
+      aria-label="Create new…"
+      data-ga-click="Header, create new, icon:add">
+    <svg class="octicon octicon-plus" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 9H7v5H5V9H0V7h5V2h2v5h5v2z"></path></svg> <span class="dropdown-caret"></span>
+  </summary>
+  <details-menu class="dropdown-menu dropdown-menu-sw mt-n2">
+    
+<a role="menuitem" class="dropdown-item" href="/new" data-ga-click="Header, create new repository">
+  New repository
+</a>
+
+  <a role="menuitem" class="dropdown-item" href="/new/import" data-ga-click="Header, import a repository">
+    Import repository
+  </a>
+
+<a role="menuitem" class="dropdown-item" href="https://gist.github.com/" data-ga-click="Header, create new gist">
+  New gist
+</a>
+
+  <a role="menuitem" class="dropdown-item" href="/organizations/new" data-ga-click="Header, create new organization">
+    New organization
+  </a>
+
+
+  <div role="none" class="dropdown-divider"></div>
+  <div class="dropdown-header">
+    <span title="xKylee/plugins-release">This repository</span>
+  </div>
+    <a role="menuitem" class="dropdown-item" href="/xKylee/plugins-release/issues/new/choose" data-ga-click="Header, create new issue" data-skip-pjax>
+      New issue
+    </a>
+
+
+  </details-menu>
+</details>
+
+  </div>
+
+  <div class="Header-item position-relative mr-0 d-none d-lg-flex">
+    
+  <details class="details-overlay details-reset js-feature-preview-indicator-container" data-feature-preview-indicator-src="/users/NullDMM/feature_preview/indicator_check">
+
+  <summary class="Header-link"
+    aria-label="View profile and more"
+    data-ga-click="Header, show menu, icon:avatar">
+    <img
+  alt="@NullDMM"
+  width="20"
+  height="20"
+  src="https://avatars1.githubusercontent.com/u/64279111?s=60&amp;v=4"
+  class="avatar avatar-user " />
+
+      <span class="feature-preview-indicator js-feature-preview-indicator" hidden></span>
+    <span class="dropdown-caret"></span>
+  </summary>
+  <details-menu class="dropdown-menu dropdown-menu-sw mt-n2" style="width: 180px">
+    <div class="header-nav-current-user css-truncate"><a role="menuitem" class="no-underline user-profile-link px-3 pt-2 pb-2 mb-n2 mt-n1 d-block" href="/NullDMM" data-ga-click="Header, go to profile, text:Signed in as">Signed in as <strong class="css-truncate-target">NullDMM</strong></a></div>
+    <div role="none" class="dropdown-divider"></div>
+
+      <div class="pl-3 pr-3 f6 user-status-container js-user-status-context pb-1" data-url="/users/status?compact=1&amp;link_mentions=0&amp;truncate=1">
+        
+<div class="js-user-status-container
+    user-status-compact rounded-1 px-2 py-1 mt-2
+    border
+  " data-team-hovercards-enabled>
+  <details class="js-user-status-details details-reset details-overlay details-overlay-dark">
+    <summary class="btn-link btn-block link-gray no-underline js-toggle-user-status-edit toggle-user-status-edit "
+      role="menuitem" data-hydro-click="{&quot;event_type&quot;:&quot;user_profile.click&quot;,&quot;payload&quot;:{&quot;profile_user_id&quot;:48519776,&quot;target&quot;:&quot;EDIT_USER_STATUS&quot;,&quot;user_id&quot;:64279111,&quot;originating_url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/plugins.json&quot;}}" data-hydro-click-hmac="a06b299e5217b12fe06567a492d423fa836b8a77e050c29ed4c86ee3858d7651">
+      <div class="d-flex">
+        <div class="f6 lh-condensed user-status-header
+          d-inline-block v-align-middle
+            user-status-emoji-only-header circle
+            pr-2
+"
+            style="max-width: 29px"
+          >
+          <div class="user-status-emoji-container flex-shrink-0 mr-1 mt-1 lh-condensed-ultra v-align-bottom" style="">
+            <svg class="octicon octicon-smiley" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8s3.58 8 8 8 8-3.58 8-8-3.58-8-8-8zm4.81 12.81a6.72 6.72 0 01-2.17 1.45c-.83.36-1.72.53-2.64.53-.92 0-1.81-.17-2.64-.53-.81-.34-1.55-.83-2.17-1.45a6.773 6.773 0 01-1.45-2.17A6.59 6.59 0 011.21 8c0-.92.17-1.81.53-2.64.34-.81.83-1.55 1.45-2.17.62-.62 1.36-1.11 2.17-1.45A6.59 6.59 0 018 1.21c.92 0 1.81.17 2.64.53.81.34 1.55.83 2.17 1.45.62.62 1.11 1.36 1.45 2.17.36.83.53 1.72.53 2.64 0 .92-.17 1.81-.53 2.64-.34.81-.83 1.55-1.45 2.17zM4 6.8v-.59c0-.66.53-1.19 1.2-1.19h.59c.66 0 1.19.53 1.19 1.19v.59c0 .67-.53 1.2-1.19 1.2H5.2C4.53 8 4 7.47 4 6.8zm5 0v-.59c0-.66.53-1.19 1.2-1.19h.59c.66 0 1.19.53 1.19 1.19v.59c0 .67-.53 1.2-1.19 1.2h-.59C9.53 8 9 7.47 9 6.8zm4 3.2c-.72 1.88-2.91 3-5 3s-4.28-1.13-5-3c-.14-.39.23-1 .66-1h8.59c.41 0 .89.61.75 1z"></path></svg>
+          </div>
+        </div>
+        <div class="
+          d-inline-block v-align-middle
+          
+          
+           css-truncate css-truncate-target 
+           user-status-message-wrapper f6"
+           style="line-height: 20px;" >
+          <div class="d-inline-block text-gray-dark v-align-text-top text-left">
+              <span class="text-gray ml-2">Set status</span>
+          </div>
+        </div>
+      </div>
+    </summary>
+    <details-dialog class="details-dialog rounded-1 anim-fade-in fast Box Box--overlay" role="dialog" tabindex="-1">
+      <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="position-relative flex-auto js-user-status-form" action="/users/status?compact=1&amp;link_mentions=0&amp;truncate=1" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="put" /><input type="hidden" name="authenticity_token" value="sUnBW/HIZIjj1xQNDhI/IMutfqIE1gXjC97rS15WsyhRSBp9PrhHIJ8nlsLD+Se25YwR5mlcX025+CAG5B6Urw==" />
+        <div class="Box-header bg-gray border-bottom p-3">
+          <button class="Box-btn-octicon js-toggle-user-status-edit btn-octicon float-right" type="reset" aria-label="Close dialog" data-close-dialog>
+            <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"></path></svg>
+          </button>
+          <h3 class="Box-title f5 text-bold text-gray-dark">Edit status</h3>
+        </div>
+        <input type="hidden" name="emoji" class="js-user-status-emoji-field" value="">
+        <input type="hidden" name="organization_id" class="js-user-status-org-id-field" value="">
+        <div class="px-3 py-2 text-gray-dark">
+          <div class="js-characters-remaining-container position-relative mt-2">
+            <div class="input-group d-table form-group my-0 js-user-status-form-group">
+              <span class="input-group-button d-table-cell v-align-middle" style="width: 1%">
+                <button type="button" aria-label="Choose an emoji" class="btn-outline btn js-toggle-user-status-emoji-picker btn-open-emoji-picker p-0">
+                  <span class="js-user-status-original-emoji" hidden></span>
+                  <span class="js-user-status-custom-emoji"></span>
+                  <span class="js-user-status-no-emoji-icon" >
+                    <svg class="octicon octicon-smiley" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8s3.58 8 8 8 8-3.58 8-8-3.58-8-8-8zm4.81 12.81a6.72 6.72 0 01-2.17 1.45c-.83.36-1.72.53-2.64.53-.92 0-1.81-.17-2.64-.53-.81-.34-1.55-.83-2.17-1.45a6.773 6.773 0 01-1.45-2.17A6.59 6.59 0 011.21 8c0-.92.17-1.81.53-2.64.34-.81.83-1.55 1.45-2.17.62-.62 1.36-1.11 2.17-1.45A6.59 6.59 0 018 1.21c.92 0 1.81.17 2.64.53.81.34 1.55.83 2.17 1.45.62.62 1.11 1.36 1.45 2.17.36.83.53 1.72.53 2.64 0 .92-.17 1.81-.53 2.64-.34.81-.83 1.55-1.45 2.17zM4 6.8v-.59c0-.66.53-1.19 1.2-1.19h.59c.66 0 1.19.53 1.19 1.19v.59c0 .67-.53 1.2-1.19 1.2H5.2C4.53 8 4 7.47 4 6.8zm5 0v-.59c0-.66.53-1.19 1.2-1.19h.59c.66 0 1.19.53 1.19 1.19v.59c0 .67-.53 1.2-1.19 1.2h-.59C9.53 8 9 7.47 9 6.8zm4 3.2c-.72 1.88-2.91 3-5 3s-4.28-1.13-5-3c-.14-.39.23-1 .66-1h8.59c.41 0 .89.61.75 1z"></path></svg>
+                  </span>
+                </button>
+              </span>
+              <text-expander keys=": @" data-mention-url="/autocomplete/user-suggestions" data-emoji-url="/autocomplete/emoji">
+                <input
+                  type="text"
+                  autocomplete="off"
+                  data-no-org-url="/autocomplete/user-suggestions"
+                  data-org-url="/suggestions?mention_suggester=1"
+                  data-maxlength="80"
+                  class="d-table-cell width-full form-control js-user-status-message-field js-characters-remaining-field"
+                  placeholder="What's happening?"
+                  name="message"
+                  value=""
+                  aria-label="What is your current status?">
+              </text-expander>
+              <div class="error">Could not update your status, please try again.</div>
+            </div>
+            <div style="margin-left: 53px" class="my-1 text-small label-characters-remaining js-characters-remaining" data-suffix="remaining" hidden>
+              80 remaining
+            </div>
+          </div>
+          <include-fragment class="js-user-status-emoji-picker" data-url="/users/status/emoji"></include-fragment>
+          <div class="overflow-auto ml-n3 mr-n3 px-3 border-bottom" style="max-height: 33vh">
+            <div class="user-status-suggestions js-user-status-suggestions collapsed overflow-hidden">
+              <h4 class="f6 text-normal my-3">Suggestions:</h4>
+              <div class="mx-3 mt-2 clearfix">
+                  <div class="float-left col-6">
+                      <button type="button" value=":palm_tree:" class="d-flex flex-items-baseline flex-items-stretch lh-condensed f6 btn-link link-gray no-underline js-predefined-user-status mb-1">
+                        <div class="emoji-status-width mr-2 v-align-middle js-predefined-user-status-emoji">
+                          <g-emoji alias="palm_tree" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f334.png">🌴</g-emoji>
+                        </div>
+                        <div class="d-flex flex-items-center no-underline js-predefined-user-status-message ws-normal text-left" style="border-left: 1px solid transparent">
+                          On vacation
+                        </div>
+                      </button>
+                      <button type="button" value=":face_with_thermometer:" class="d-flex flex-items-baseline flex-items-stretch lh-condensed f6 btn-link link-gray no-underline js-predefined-user-status mb-1">
+                        <div class="emoji-status-width mr-2 v-align-middle js-predefined-user-status-emoji">
+                          <g-emoji alias="face_with_thermometer" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f912.png">🤒</g-emoji>
+                        </div>
+                        <div class="d-flex flex-items-center no-underline js-predefined-user-status-message ws-normal text-left" style="border-left: 1px solid transparent">
+                          Out sick
+                        </div>
+                      </button>
+                  </div>
+                  <div class="float-left col-6">
+                      <button type="button" value=":house:" class="d-flex flex-items-baseline flex-items-stretch lh-condensed f6 btn-link link-gray no-underline js-predefined-user-status mb-1">
+                        <div class="emoji-status-width mr-2 v-align-middle js-predefined-user-status-emoji">
+                          <g-emoji alias="house" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f3e0.png">🏠</g-emoji>
+                        </div>
+                        <div class="d-flex flex-items-center no-underline js-predefined-user-status-message ws-normal text-left" style="border-left: 1px solid transparent">
+                          Working from home
+                        </div>
+                      </button>
+                      <button type="button" value=":dart:" class="d-flex flex-items-baseline flex-items-stretch lh-condensed f6 btn-link link-gray no-underline js-predefined-user-status mb-1">
+                        <div class="emoji-status-width mr-2 v-align-middle js-predefined-user-status-emoji">
+                          <g-emoji alias="dart" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f3af.png">🎯</g-emoji>
+                        </div>
+                        <div class="d-flex flex-items-center no-underline js-predefined-user-status-message ws-normal text-left" style="border-left: 1px solid transparent">
+                          Focusing
+                        </div>
+                      </button>
+                  </div>
+              </div>
+            </div>
+            <div class="user-status-limited-availability-container">
+              <div class="form-checkbox my-0">
+                <input type="checkbox" name="limited_availability" value="1" class="js-user-status-limited-availability-checkbox" data-default-message="I may be slow to respond." aria-describedby="limited-availability-help-text-truncate-true-compact-true" id="limited-availability-truncate-true-compact-true">
+                <label class="d-block f5 text-gray-dark mb-1" for="limited-availability-truncate-true-compact-true">
+                  Busy
+                </label>
+                <p class="note" id="limited-availability-help-text-truncate-true-compact-true">
+                  When others mention you, assign you, or request your review,
+                  GitHub will let them know that you have limited availability.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="d-inline-block f5 mr-2 pt-3 pb-2" >
+  <div class="d-inline-block mr-1">
+    Clear status
+  </div>
+
+  <details class="js-user-status-expire-drop-down f6 dropdown details-reset details-overlay d-inline-block mr-2">
+    <summary class="f5 btn-link link-gray-dark border px-2 py-1 rounded-1" aria-haspopup="true">
+      <div class="js-user-status-expiration-interval-selected d-inline-block v-align-baseline">
+        Never
+      </div>
+      <div class="dropdown-caret"></div>
+    </summary>
+
+    <ul class="dropdown-menu dropdown-menu-se pl-0 overflow-auto" style="width: 220px; max-height: 15.5em">
+      <li>
+        <button type="button" class="btn-link dropdown-item js-user-status-expire-button ws-normal" title="Never">
+          <span class="d-inline-block text-bold mb-1">Never</span>
+          <div class="f6 lh-condensed">Keep this status until you clear your status or edit your status.</div>
+        </button>
+      </li>
+      <li class="dropdown-divider" role="none"></li>
+        <li>
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 30 minutes" value="2020-04-24T19:55:54+01:00">
+            in 30 minutes
+          </button>
+        </li>
+        <li>
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 1 hour" value="2020-04-24T20:25:54+01:00">
+            in 1 hour
+          </button>
+        </li>
+        <li>
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 4 hours" value="2020-04-24T23:25:54+01:00">
+            in 4 hours
+          </button>
+        </li>
+        <li>
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="today" value="2020-04-24T23:59:59+01:00">
+            today
+          </button>
+        </li>
+        <li>
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="this week" value="2020-04-26T23:59:59+01:00">
+            this week
+          </button>
+        </li>
+    </ul>
+  </details>
+  <input class="js-user-status-expiration-date-input" type="hidden" name="expires_at" value="">
+</div>
+
+          <include-fragment class="js-user-status-org-picker" data-url="/users/status/organizations"></include-fragment>
+        </div>
+        <div class="d-flex flex-items-center flex-justify-between p-3 border-top">
+          <button type="submit" disabled class="width-full btn btn-primary mr-2 js-user-status-submit">
+            Set status
+          </button>
+          <button type="button" disabled class="width-full js-clear-user-status-button btn ml-2 ">
+            Clear status
+          </button>
+        </div>
+</form>    </details-dialog>
+  </details>
+</div>
+
+      </div>
+      <div role="none" class="dropdown-divider"></div>
+
+    <a role="menuitem" class="dropdown-item" href="/NullDMM" data-ga-click="Header, go to profile, text:your profile">Your profile</a>
+
+    <a role="menuitem" class="dropdown-item" href="/NullDMM?tab=repositories" data-ga-click="Header, go to repositories, text:your repositories">Your repositories</a>
+
+    <a role="menuitem" class="dropdown-item" href="/NullDMM?tab=projects" data-ga-click="Header, go to projects, text:your projects">Your projects</a>
+
+    <a role="menuitem" class="dropdown-item" href="/NullDMM?tab=stars" data-ga-click="Header, go to starred repos, text:your stars">Your stars</a>
+      <a role="menuitem" class="dropdown-item" href="https://gist.github.com/mine" data-ga-click="Header, your gists, text:your gists">Your gists</a>
+
+
+
+
+
+    <div role="none" class="dropdown-divider"></div>
+      
+<div id="feature-enrollment-toggle" class="hide-sm hide-md feature-preview-details position-relative">
+  <button
+    type="button"
+    class="dropdown-item btn-link"
+    role="menuitem"
+    data-feature-preview-trigger-url="/users/NullDMM/feature_previews"
+    data-feature-preview-close-details="{&quot;event_type&quot;:&quot;feature_preview.clicks.close_modal&quot;,&quot;payload&quot;:{&quot;originating_url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/plugins.json&quot;,&quot;user_id&quot;:64279111}}"
+    data-feature-preview-close-hmac="be941b42b823b4dfe83336f37a904de4604c646097764f7069369d62ddf5948d"
+    data-hydro-click="{&quot;event_type&quot;:&quot;feature_preview.clicks.open_modal&quot;,&quot;payload&quot;:{&quot;link_location&quot;:&quot;user_dropdown&quot;,&quot;originating_url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/plugins.json&quot;,&quot;user_id&quot;:64279111}}"
+    data-hydro-click-hmac="221bf31d1e2b99e96190d279b9e8d952b4a4adf4cc6fdca34f3699d0ff77aecf"
+  >
+    Feature preview
+  </button>
+    <span class="feature-preview-indicator js-feature-preview-indicator" hidden></span>
+</div>
+
+    <a role="menuitem" class="dropdown-item" href="https://help.github.com" data-ga-click="Header, go to help, text:help">Help</a>
+    <a role="menuitem" class="dropdown-item" href="/settings/profile" data-ga-click="Header, go to settings, icon:settings">Settings</a>
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="logout-form" action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="rjqSYRvfKC0dueUj53bRciiV9fDpvPdHK8Fg08M5jmOWrQdJDT4mbIYPEF6Xa8NhwTYuWkFbWHwz5R1Uqf8EBQ==" />
+      
+      <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout" role="menuitem">
+        Sign out
+      </button>
+      <input type="text" name="required_field_b48a" hidden="hidden" class="form-control" /><input type="hidden" name="timestamp" value="1587752754499" class="form-control" /><input type="hidden" name="timestamp_secret" value="49348c996aeb1a6aae1029888f314fc884d2954f7e6e30acd87205c65800afa6" class="form-control" />
+</form>  </details-menu>
+</details>
+
+  </div>
+
+</header>
+
+        
+
+    </div>
+
+  <div id="start-of-content" class="show-on-focus"></div>
+
+
+
+
+    <div id="js-flash-container">
+
+
+  <template class="js-flash-template">
+    <div class="flash flash-full  js-flash-template-container">
+  <div class="container-lg px-2" >
+    <button class="flash-close js-flash-close" type="button" aria-label="Dismiss this message">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"></path></svg>
+    </button>
+    
+      <div class="js-flash-template-message"></div>
+
+  </div>
+</div>
+  </template>
+</div>
+
+
+      
+
+  <include-fragment class="js-notification-shelf-include-fragment" data-base-src="https://github.com/notifications/beta/shelf"></include-fragment>
+
+
+
+
+  <div class="application-main " data-commit-hovercards-enabled>
+        <div itemscope itemtype="http://schema.org/SoftwareSourceCode" class="">
+    <main  >
+      
+
+  
+
+
+
+
+
+
+
+
+
+
+
+  <div class="pagehead repohead hx_repohead readability-menu bg-gray-light pb-0 pt-0 pt-lg-3">
+
+    <div class="d-flex container-lg mb-4 p-responsive d-none d-lg-flex">
+
+      <div class="flex-auto min-width-0 width-fit mr-3">
+        <h1 class="public  d-flex flex-wrap flex-items-center break-word float-none ">
+  <span class="flex-self-stretch" style="margin-top: -2px;">
+      <svg class="octicon octicon-repo" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"></path></svg>
+  </span>
+  <span class="author ml-2 flex-self-stretch" itemprop="author">
+    <a class="url fn" rel="author" data-hovercard-type="user" data-hovercard-url="/users/xKylee/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/xKylee">xKylee</a>
+  </span>
+  <span class="path-divider flex-self-stretch">/</span>
+  <strong itemprop="name" class="mr-2 flex-self-stretch">
+    <a data-pjax="#js-repo-pjax-container" href="/xKylee/plugins-release">plugins-release</a>
+  </strong>
+  
+</h1>
+
+
+      </div>
+
+      <ul class="pagehead-actions flex-shrink-0 " >
+
+
+
+
+  <li>
+    
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-remote="true" class="clearfix js-social-form js-social-container" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="rb2SragW1s0u+cOgPK0KaEsWtEUvcSK/gGbbDqmfhrayAXGsvewpL/iAbxhkoQIyxJZoclTKihR8HWegKSda3Q==" />      <input type="hidden" name="repository_id" value="239634949">
+
+      <details class="details-reset details-overlay select-menu float-left">
+        <summary class="select-menu-button float-left btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:239634949,&quot;originating_url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/plugins.json&quot;,&quot;user_id&quot;:64279111}}" data-hydro-click-hmac="e1a0cce3e86b526d8da1376245a6a1f98fde901c05aa46134f3f55f207f33c77" data-ga-click="Repository, click Watch settings, action:blob#show">          <span data-menu-button>
+              <svg class="octicon octicon-eye v-align-text-bottom" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"></path></svg>
+              Watch
+          </span>
+</summary>        <details-menu
+          class="select-menu-modal position-absolute mt-5"
+          style="z-index: 99;">
+          <div class="select-menu-header">
+            <span class="select-menu-title">Notifications</span>
+          </div>
+          <div class="select-menu-list">
+            <button type="submit" name="do" value="included" class="select-menu-item width-full" aria-checked="true" role="menuitemradio">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"></path></svg>
+              <div class="select-menu-item-text">
+                <span class="select-menu-item-heading">Not watching</span>
+                <span class="description">Be notified only when participating or @mentioned.</span>
+                <span class="hidden-select-button-text" data-menu-button-contents>
+                  <svg class="octicon octicon-eye v-align-text-bottom" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"></path></svg>
+                  Watch
+                </span>
+              </div>
+            </button>
+
+            <button type="submit" name="do" value="release_only" class="select-menu-item width-full" aria-checked="false" role="menuitemradio">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"></path></svg>
+              <div class="select-menu-item-text">
+                <span class="select-menu-item-heading">Releases only</span>
+                <span class="description">Be notified of new releases, and when participating or @mentioned.</span>
+                <span class="hidden-select-button-text" data-menu-button-contents>
+                  <svg class="octicon octicon-eye v-align-text-bottom" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"></path></svg>
+                  Unwatch releases
+                </span>
+              </div>
+            </button>
+
+            <button type="submit" name="do" value="subscribed" class="select-menu-item width-full" aria-checked="false" role="menuitemradio">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"></path></svg>
+              <div class="select-menu-item-text">
+                <span class="select-menu-item-heading">Watching</span>
+                <span class="description">Be notified of all conversations.</span>
+                <span class="hidden-select-button-text" data-menu-button-contents>
+                  <svg class="octicon octicon-eye v-align-text-bottom" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"></path></svg>
+                  Unwatch
+                </span>
+              </div>
+            </button>
+
+            <button type="submit" name="do" value="ignore" class="select-menu-item width-full" aria-checked="false" role="menuitemradio">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"></path></svg>
+              <div class="select-menu-item-text">
+                <span class="select-menu-item-heading">Ignoring</span>
+                <span class="description">Never be notified.</span>
+                <span class="hidden-select-button-text" data-menu-button-contents>
+                  <svg class="octicon octicon-mute v-align-text-bottom" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 2.81v10.38c0 .67-.81 1-1.28.53L3 10H1c-.55 0-1-.45-1-1V7c0-.55.45-1 1-1h2l3.72-3.72C7.19 1.81 8 2.14 8 2.81zm7.53 3.22l-1.06-1.06-1.97 1.97-1.97-1.97-1.06 1.06L11.44 8 9.47 9.97l1.06 1.06 1.97-1.97 1.97 1.97 1.06-1.06L13.56 8l1.97-1.97z"></path></svg>
+                  Stop ignoring
+                </span>
+              </div>
+            </button>
+          </div>
+        </details-menu>
+      </details>
+        <a class="social-count js-social-count"
+          href="/xKylee/plugins-release/watchers"
+          aria-label="2 users are watching this repository">
+          2
+        </a>
+</form>
+  </li>
+
+  <li>
+      <div class="js-toggler-container js-social-container starring-container ">
+    <form class="starred js-social-form" action="/xKylee/plugins-release/unstar" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="Xay9yjuEB93iVtQCGKE1p/GJuca9bHNKyCMTHCvqgTJiMvEWkQ+1KvYq1uviJgnFW6e7eggMaMP3Z+VwzjcCDg==" />
+      <input type="hidden" name="context" value="repository"></input>
+      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Unstar xKylee/plugins-release" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:239634949,&quot;originating_url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/plugins.json&quot;,&quot;user_id&quot;:64279111}}" data-hydro-click-hmac="cf82c37483a745cf6032eeb2191f96a341b0de36fda887e0ba1f85d56efca3d8" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">        <svg height="16" class="octicon octicon-star v-align-text-bottom" vertical_align="text_bottom" viewBox="0 0 14 16" version="1.1" width="14" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path></svg>
+
+        Unstar
+</button>        <a class="social-count js-social-count" href="/xKylee/plugins-release/stargazers"
+           aria-label="12 users starred this repository">
+           12
+        </a>
+</form>
+    <form class="unstarred js-social-form" action="/xKylee/plugins-release/star" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="RPE7bl1LdlKak6db3vh9GOnZrMOsg3FT0pvifCXJkGmv5sJpweBWNdrHgZdhPnKQST3eBB2uD1Y9+TbPOYZ8bw==" />
+      <input type="hidden" name="context" value="repository"></input>
+      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Star xKylee/plugins-release" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:239634949,&quot;originating_url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/plugins.json&quot;,&quot;user_id&quot;:64279111}}" data-hydro-click-hmac="9779bd7e9fd3fb8b90eefca1d051536a9d8fa05153f840092adae926fbee7224" data-ga-click="Repository, click star button, action:blob#show; text:Star">        <svg height="16" class="octicon octicon-star v-align-text-bottom" vertical_align="text_bottom" viewBox="0 0 14 16" version="1.1" width="14" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path></svg>
+
+        Star
+</button>        <a class="social-count js-social-count" href="/xKylee/plugins-release/stargazers"
+           aria-label="12 users starred this repository">
+          12
+        </a>
+</form>  </div>
+
+  </li>
+
+  <li>
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="btn-with-count" action="/xKylee/plugins-release/fork" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="EHHXX0SAZdZDRX5gnqMyluOR2/TpYsbLQiCVG/JW/fvrATnWjPsoPuzVxHlGyA93GEsNnERQSyvYTzK0mSsUHA==" />
+            <button class="btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FORK_BUTTON&quot;,&quot;repository_id&quot;:239634949,&quot;originating_url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/plugins.json&quot;,&quot;user_id&quot;:64279111}}" data-hydro-click-hmac="06eb2582dc8d840fa1fe5102dc8f968d01b889fd5c49b494345f849ec660dd40" data-ga-click="Repository, show fork modal, action:blob#show; text:Fork" type="submit" title="Fork your own copy of xKylee/plugins-release to your account" aria-label="Fork your own copy of xKylee/plugins-release to your account">              <svg class="octicon octicon-repo-forked v-align-text-bottom" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 00-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 002 1a1.993 1.993 0 00-1 3.72V6.5l3 3v1.78A1.993 1.993 0 005 15a1.993 1.993 0 001-3.72V9.5l3-3V4.72A1.993 1.993 0 008 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"></path></svg>
+              Fork
+</button></form>
+    <a href="/xKylee/plugins-release/network/members" class="social-count"
+       aria-label="25 users forked this repository">
+      25
+    </a>
+  </li>
+</ul>
+
+    </div>
+      
+<nav class="hx_reponav reponav js-repo-nav js-sidenav-container-pjax clearfix container-lg p-responsive d-none d-lg-block"
+     itemscope
+     itemtype="http://schema.org/BreadcrumbList"
+    aria-label="Repository"
+     data-pjax="#js-repo-pjax-container">
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a class="js-selected-navigation-item selected reponav-item" itemprop="url" data-hotkey="g c" aria-current="page" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /xKylee/plugins-release" href="/xKylee/plugins-release">
+      <div class="d-inline"><svg class="octicon octicon-code" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"></path></svg></div>
+      <span itemprop="name">Code</span>
+      <meta itemprop="position" content="1">
+</a>  </span>
+
+    <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+      <a itemprop="url" data-hotkey="g i" class="js-selected-navigation-item reponav-item" data-selected-links="repo_issues repo_labels repo_milestones /xKylee/plugins-release/issues" href="/xKylee/plugins-release/issues">
+        <div class="d-inline"><svg class="octicon octicon-issue-opened" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 011.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></div>
+        <span itemprop="name">Issues</span>
+        <span class="Counter">0</span>
+        <meta itemprop="position" content="2">
+</a>    </span>
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a data-hotkey="g p" data-skip-pjax="true" itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /xKylee/plugins-release/pulls" href="/xKylee/plugins-release/pulls">
+      <div class="d-inline"><svg class="octicon octicon-git-pull-request" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0010 15a1.993 1.993 0 001-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 00-1 3.72v6.56A1.993 1.993 0 002 15a1.993 1.993 0 001-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"></path></svg></div>
+      <span itemprop="name">Pull requests</span>
+      <span class="Counter">0</span>
+      <meta itemprop="position" content="4">
+</a>  </span>
+
+
+    <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement" class="position-relative float-left">
+      <a data-hotkey="g w" data-skip-pjax="true" class="js-selected-navigation-item reponav-item" data-selected-links="repo_actions /xKylee/plugins-release/actions" href="/xKylee/plugins-release/actions">
+        <div class="d-inline"><svg class="octicon octicon-play" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 8A7 7 0 110 8a7 7 0 0114 0zm-8.223 3.482l4.599-3.066a.5.5 0 000-.832L5.777 4.518A.5.5 0 005 4.934v6.132a.5.5 0 00.777.416z"></path></svg></div>
+        Actions
+</a>
+    </span>
+
+    <a data-hotkey="g b" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /xKylee/plugins-release/projects" href="/xKylee/plugins-release/projects">
+      <div class="d-inline"><svg class="octicon octicon-project" viewBox="0 0 15 16" version="1.1" width="15" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 00-1 1v14a1 1 0 001 1h13a1 1 0 001-1V1a1 1 0 00-1-1z"></path></svg></div>
+      Projects
+      <span class="Counter">0</span>
+</a>
+    <a class="js-selected-navigation-item reponav-item" data-hotkey="g w" data-selected-links="repo_wiki /xKylee/plugins-release/wiki" href="/xKylee/plugins-release/wiki">
+      <div class="d-inline"><svg class="octicon octicon-book" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z"></path></svg></div>
+      Wiki
+</a>
+    <a data-skip-pjax="true" class="js-selected-navigation-item reponav-item" data-selected-links="security overview alerts policy token_scanning code_scanning /xKylee/plugins-release/security" href="/xKylee/plugins-release/security">
+      <div class="d-inline"><svg class="octicon octicon-shield" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M0 2l7-2 7 2v6.02C14 12.69 8.69 16 7 16c-1.69 0-7-3.31-7-7.98V2zm1 .75L7 1l6 1.75v5.268C13 12.104 8.449 15 7 15c-1.449 0-6-2.896-6-6.982V2.75zm1 .75L7 2v12c-1.207 0-5-2.482-5-5.985V3.5z"></path></svg></div>
+      Security
+          <span class="Counter js-security-tab-count" data-url="/xKylee/plugins-release/security/overall-count" hidden></span>
+</a>
+    <a class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors dependency_graph dependabot_updates pulse people /xKylee/plugins-release/pulse" href="/xKylee/plugins-release/pulse">
+      <div class="d-inline"><svg class="octicon octicon-graph" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 14v1H0V0h1v14h15zM5 13H3V8h2v5zm4 0H7V3h2v10zm4 0h-2V6h2v7z"></path></svg></div>
+      Insights
+</a>
+
+</nav>
+
+  <div class="reponav-wrapper reponav-small d-lg-none">
+  <nav class="reponav js-reponav text-center no-wrap"
+       itemscope
+       itemtype="http://schema.org/BreadcrumbList">
+
+    <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+      <a class="js-selected-navigation-item selected reponav-item" itemprop="url" aria-current="page" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /xKylee/plugins-release" href="/xKylee/plugins-release">
+        <span itemprop="name">Code</span>
+        <meta itemprop="position" content="1">
+</a>    </span>
+
+      <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+        <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_issues repo_labels repo_milestones /xKylee/plugins-release/issues" href="/xKylee/plugins-release/issues">
+          <span itemprop="name">Issues</span>
+          <span class="Counter">0</span>
+          <meta itemprop="position" content="2">
+</a>      </span>
+
+    <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+      <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /xKylee/plugins-release/pulls" href="/xKylee/plugins-release/pulls">
+        <span itemprop="name">Pull requests</span>
+        <span class="Counter">0</span>
+        <meta itemprop="position" content="4">
+</a>    </span>
+
+
+      <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+        <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /xKylee/plugins-release/projects" href="/xKylee/plugins-release/projects">
+          <span itemprop="name">Projects</span>
+          <span class="Counter">0</span>
+          <meta itemprop="position" content="5">
+</a>      </span>
+
+      <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+        <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_actions /xKylee/plugins-release/actions" href="/xKylee/plugins-release/actions">
+          <span itemprop="name">Actions</span>
+          <meta itemprop="position" content="6">
+</a>      </span>
+
+      <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+        <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_wiki /xKylee/plugins-release/wiki" href="/xKylee/plugins-release/wiki">
+          <span itemprop="name">Wiki</span>
+          <meta itemprop="position" content="7">
+</a>      </span>
+
+      <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="security overview alerts policy token_scanning code_scanning /xKylee/plugins-release/security" href="/xKylee/plugins-release/security">
+        <span itemprop="name">Security</span>
+            <span class="Counter js-security-deferred-tab-count" hidden></span>
+        <meta itemprop="position" content="8">
+</a>
+      <a class="js-selected-navigation-item reponav-item" data-selected-links="pulse /xKylee/plugins-release/pulse" href="/xKylee/plugins-release/pulse">
+        Pulse
+</a>
+      <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+        <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="community /xKylee/plugins-release/community" href="/xKylee/plugins-release/community">
+          Community
+</a>      </span>
+
+  </nav>
+</div>
+
+
+  </div>
+
+  
+
+  <include-fragment class="js-notification-shelf-include-fragment" data-base-src="https://github.com/notifications/beta/shelf"></include-fragment>
+
+
+<div class="container-lg clearfix new-discussion-timeline  p-responsive">
+  <div class="repository-content ">
+
+    
+    
+
+  
+
+
+    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/xKylee/plugins-release/blob/2f1710c91806d97eacdaf1ecd2c70be95ac17ab8/plugins.json">Permalink</a>
+
+    <!-- blob contrib key: blob_contributors:v22:a894bfc39a5f3df8cb01a55d9715607d -->
+    
+
+    <div class="d-flex flex-items-start flex-shrink-0 flex-column flex-md-row pb-3">
+      <span class="d-flex flex-justify-between width-full width-md-auto">
+        
+<details class="details-reset details-overlay branch-select-menu " id="branch-select-menu">
+  <summary class="btn css-truncate btn-sm"
+           data-hotkey="w"
+           title="Switch branches or tags">
+    <i>Branch:</i>
+    <span class="css-truncate-target" data-menu-button>master</span>
+    <span class="dropdown-caret"></span>
+  </summary>
+
+  <details-menu class="SelectMenu SelectMenu--hasFilter" src="/xKylee/plugins-release/refs/master/plugins.json?source_action=show&amp;source_controller=blob" preload>
+    <div class="SelectMenu-modal">
+      <include-fragment class="SelectMenu-loading" aria-label="Menu is loading">
+        <svg class="octicon octicon-octoface anim-pulse" height="32" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M14.7 5.34c.13-.32.55-1.59-.13-3.31 0 0-1.05-.33-3.44 1.3-1-.28-2.07-.32-3.13-.32s-2.13.04-3.13.32c-2.39-1.64-3.44-1.3-3.44-1.3-.68 1.72-.26 2.99-.13 3.31C.49 6.21 0 7.33 0 8.69 0 13.84 3.33 15 7.98 15S16 13.84 16 8.69c0-1.36-.49-2.48-1.3-3.35zM8 14.02c-3.3 0-5.98-.15-5.98-3.35 0-.76.38-1.48 1.02-2.07 1.07-.98 2.9-.46 4.96-.46 2.07 0 3.88-.52 4.96.46.65.59 1.02 1.3 1.02 2.07 0 3.19-2.68 3.35-5.98 3.35zM5.49 9.01c-.66 0-1.2.8-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.54-1.78-1.2-1.78zm5.02 0c-.66 0-1.2.79-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.53-1.78-1.2-1.78z"></path></svg>
+      </include-fragment>
+    </div>
+  </details-menu>
+</details>
+
+        <div class="BtnGroup flex-shrink-0 d-md-none">
+          <a href="/xKylee/plugins-release/find/master"
+                class="js-pjax-capture-input btn btn-sm BtnGroup-item"
+                data-pjax
+                data-hotkey="t">
+            Find file
+          </a>
+          <clipboard-copy value="plugins.json" class="btn btn-sm BtnGroup-item">
+            Copy path
+          </clipboard-copy>
+        </div>
+      </span>
+      <h2 id="blob-path" class="breadcrumb flex-auto min-width-0 text-normal flex-md-self-center ml-md-2 mr-md-3 my-2 my-md-0">
+        <span class="js-repo-root text-bold"><span class="js-path-segment"><a data-pjax="true" href="/xKylee/plugins-release"><span>plugins-release</span></a></span></span><span class="separator">/</span><strong class="final-path">plugins.json</strong>
+      </h2>
+
+      <div class="BtnGroup flex-shrink-0 d-none d-md-inline-block">
+        <a href="/xKylee/plugins-release/find/master"
+              class="js-pjax-capture-input btn btn-sm BtnGroup-item"
+              data-pjax
+              data-hotkey="t">
+          Find file
+        </a>
+        <clipboard-copy value="plugins.json" class="btn btn-sm BtnGroup-item">
+          Copy path
+        </clipboard-copy>
+      </div>
+    </div>
+
+
+
+    
+  <div class="Box Box--condensed d-flex flex-column flex-shrink-0 mb-3">
+      <div class="Box-body d-flex flex-justify-between bg-blue-light flex-column flex-md-row flex-items-start flex-md-items-center">
+        <span class="pr-md-4 f6">
+          <a rel="contributor" data-skip-pjax="true" href="/apps/github-actions"><img class="avatar" src="https://avatars0.githubusercontent.com/in/15368?s=40&amp;v=4" width="20" height="20" alt="@github-actions" /></a>
+          <a class="text-bold link-gray-dark lh-default v-align-middle" rel="contributor" href="/apps/github-actions">github-actions</a>
+            <span class="lh-default v-align-middle">
+              <a data-pjax="true" title="Automatic plugin bootstrap" class="link-gray" href="/xKylee/plugins-release/commit/2f1710c91806d97eacdaf1ecd2c70be95ac17ab8">Automatic plugin bootstrap</a>
+            </span>
+        </span>
+        <span class="d-inline-block flex-shrink-0 v-align-bottom f6 mt-2 mt-md-0">
+          <a class="pr-2 text-mono link-gray" href="/xKylee/plugins-release/commit/2f1710c91806d97eacdaf1ecd2c70be95ac17ab8" data-pjax>2f1710c</a>
+          <relative-time datetime="2020-04-17T14:02:35Z" class="no-wrap">Apr 17, 2020</relative-time>
+        </span>
+      </div>
+
+    <div class="Box-body d-flex flex-items-center flex-auto f6 border-bottom-0 flex-wrap" >
+      <details class="details-reset details-overlay details-overlay-dark lh-default text-gray-dark float-left mr-2" id="blob_contributors_box">
+        <summary class="btn-link">
+          <span><strong>4</strong> contributors</span>
+        </summary>
+        <details-dialog
+          class="Box Box--overlay d-flex flex-column anim-fade-in fast"
+          aria-label="Users who have contributed to this file"
+          src="/xKylee/plugins-release/contributors-list/master/plugins.json" preload>
+          <div class="Box-header">
+            <button class="Box-btn-octicon btn-octicon float-right" type="button" aria-label="Close dialog" data-close-dialog>
+              <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"></path></svg>
+            </button>
+            <h3 class="Box-title">
+              Users who have contributed to this file
+            </h3>
+          </div>
+          <include-fragment class="octocat-spinner my-3" aria-label="Loading..."></include-fragment>
+        </details-dialog>
+      </details>
+        <span class="">
+    <a class="avatar-link" href="/xKylee/plugins-release/commits/master/plugins.json?author=github-actions">
+      <img class="avatar mr-1" src="https://avatars0.githubusercontent.com/in/15368?s=40&amp;v=4" width="20" height="20" alt="@github-actions" /> 
+</a>    <a class="avatar-link" data-hovercard-type="user" data-hovercard-url="/users/xKylee/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/xKylee/plugins-release/commits/master/plugins.json?author=xKylee">
+      <img class="avatar mr-1 avatar-user" src="https://avatars3.githubusercontent.com/u/48519776?s=40&amp;v=4" width="20" height="20" alt="@xKylee" /> 
+</a>    <a class="avatar-link" data-hovercard-type="user" data-hovercard-url="/users/Owain94/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/xKylee/plugins-release/commits/master/plugins.json?author=Owain94">
+      <img class="avatar mr-1 avatar-user" src="https://avatars1.githubusercontent.com/u/1298224?s=40&amp;v=4" width="20" height="20" alt="@Owain94" /> 
+</a>    <a class="avatar-link" data-hovercard-type="user" data-hovercard-url="/users/big213/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/xKylee/plugins-release/commits/master/plugins.json?author=big213">
+      <img class="avatar mr-1 avatar-user" src="https://avatars2.githubusercontent.com/u/8443042?s=40&amp;v=4" width="20" height="20" alt="@big213" /> 
+</a>
+</span>
+
+    </div>
+  </div>
+
+
+
+
+
+
+    <div class="Box mt-3 position-relative
+      ">
+      
+<div class="Box-header py-2 d-flex flex-column flex-shrink-0 flex-md-row flex-md-items-center">
+  <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
+
+      1 lines (1 sloc)
+      <span class="file-info-divider"></span>
+    60.2 KB
+  </div>
+
+  <div class="d-flex py-1 py-md-0 flex-auto flex-order-1 flex-md-order-2 flex-sm-grow-0 flex-justify-between">
+
+    <div class="BtnGroup">
+      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/xKylee/plugins-release/raw/master/plugins.json">Raw</a>
+        <a class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b" href="/xKylee/plugins-release/blame/master/plugins.json">Blame</a>
+      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/xKylee/plugins-release/commits/master/plugins.json">History</a>
+    </div>
+
+
+    <div>
+          <a class="btn-octicon tooltipped tooltipped-nw js-remove-unless-platform"
+             data-platforms="windows,mac"
+             href="x-github-client://openRepo/https://github.com/xKylee/plugins-release?branch=master&amp;filepath=plugins.json"
+             aria-label="Open this file in GitHub Desktop"
+             data-ga-click="Repository, open with desktop">
+              <svg class="octicon octicon-device-desktop" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M15 2H1c-.55 0-1 .45-1 1v9c0 .55.45 1 1 1h5.34c-.25.61-.86 1.39-2.34 2h8c-1.48-.61-2.09-1.39-2.34-2H15c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm0 9H1V3h14v8z"></path></svg>
+          </a>
+
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form js-update-url-with-hash" action="/xKylee/plugins-release/edit/master/plugins.json" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="sPppMt3dZFpdyndR7jVHymkYO7/ypl3fKRImG2HFOdtr1heEXK8w+dLbTYdCUQ1GLnJ5UAPYhGoh99fUGtJe9w==" />
+            <button class="btn-octicon tooltipped tooltipped-nw" type="submit"
+              aria-label="Fork this project and edit the file" data-hotkey="e" data-disable-with>
+              <svg class="octicon octicon-pencil" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M0 12v3h3l8-8-3-3-8 8zm3 2H1v-2h1v1h1v1zm10.3-9.3L12 6 9 3l1.3-1.3a.996.996 0 011.41 0l1.59 1.59c.39.39.39 1.02 0 1.41z"></path></svg>
+            </button>
+</form>
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/xKylee/plugins-release/delete/master/plugins.json" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="N17aV0TSfkvnwE2vA6LwMTdz/U4lmM8YeISv+FejX31R3VzvX6HmLTd4Yi9oDGiPwixPW1IEPhDHx+rjuhF5Ew==" />
+            <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
+              aria-label="Fork this project and delete the file" data-disable-with>
+              <svg class="octicon octicon-trashcan" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 2H9c0-.55-.45-1-1-1H5c-.55 0-1 .45-1 1H2c-.55 0-1 .45-1 1v1c0 .55.45 1 1 1v9c0 .55.45 1 1 1h7c.55 0 1-.45 1-1V5c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm-1 12H3V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9zm1-10H2V3h9v1z"></path></svg>
+            </button>
+</form>    </div>
+  </div>
+</div>
+
+
+
+      
+
+  <div itemprop="text" class="Box-body p-0 blob-wrapper data type-json ">
+      
+<table class="highlight tab-size js-file-line-container" data-tab-size="8" data-paste-markdown-skip>
+      <tr>
+        <td id="L1" class="blob-num js-line-number" data-line-number="1"></td>
+        <td id="LC1" class="blob-code blob-code-inner js-file-line">[{&quot;projectUrl&quot;:&quot;https://discord.gg/ARcwsJr&quot;,&quot;provider&quot;:&quot;xKylee&quot;,&quot;name&quot;:&quot;Alchemical Hydra&quot;,&quot;description&quot;:&quot;Show what to pray against Alchemical Hydra&quot;,&quot;id&quot;:&quot;alchemicalhydra-plugin&quot;,&quot;releases&quot;:[{&quot;date&quot;:&quot;2020-02-17&quot;,&quot;sha512sum&quot;:&quot;B55A87BEFA895A9085C4B252B8ACE87C833D94B524080C7F68CAF398D0DB28EBECDC5317773833B8F47C011F952B85D13F2BD96825ED734239D81EC41A6FAE65&quot;,&quot;version&quot;:&quot;0.0.3&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/alchemicalhydra-0.0.3.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-02-20&quot;,&quot;sha512sum&quot;:&quot;31F1DA51208FE8051F8FA94F13252CD82545608E3FFD07EA7620E9D7BF3E0ACAD4A74B801C5B5E5EE7F6766450C51D206A941AF5625818431894F3E22AB0A876&quot;,&quot;version&quot;:&quot;0.0.4&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/alchemicalhydra-0.0.4.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-02-21&quot;,&quot;sha512sum&quot;:&quot;38B27CC7854034A25980589595E2502E8E1794501D2B58A70BDC2AE83716140AA0B5DA5163C9AA46674A373B43965D58CD1CBB53FD70340B86D47832E17DE813&quot;,&quot;version&quot;:&quot;0.0.5&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/alchemicalhydra-0.0.5.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-03-11&quot;,&quot;sha512sum&quot;:&quot;3951052DB57C0884FC868796FD8BB4A4CDDFA6C966A5420182DD137CC1A84D9C93820B6539193E2B70662521931A1F114CBF789D914F85A07CFE7ABE9EDB47BE&quot;,&quot;version&quot;:&quot;0.0.6&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/alchemicalhydra-0.0.6.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-03-31&quot;,&quot;sha512sum&quot;:&quot;6AD6C0DC8EE982B9154A578C80B16467C8B3AC13D5D51F705F6F674FC03EC6BE44952B5877D047566FE209EAA067AB361DE209B39696D1CD686737201772B569&quot;,&quot;version&quot;:&quot;0.0.7&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/alchemicalhydra-0.0.7.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-04-05&quot;,&quot;sha512sum&quot;:&quot;00E129ABBC84D271B92DE82229D5DD5456C64E3576CDE9A810E5AA75B9590873FAD6AB7D395186FBCB78F181045298AE1C4981E35E6547E833A5A12C1055BBCC&quot;,&quot;version&quot;:&quot;0.0.8&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/alchemicalhydra-0.0.8.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;}]}, {&quot;projectUrl&quot;:&quot;https://discord.gg/ARcwsJr&quot;,&quot;provider&quot;:&quot;xKylee&quot;,&quot;name&quot;:&quot;AoE Warnings&quot;,&quot;description&quot;:&quot;Shows the final destination for AoE Attack projectiles&quot;,&quot;id&quot;:&quot;aoewarnings-plugin&quot;,&quot;releases&quot;:[{&quot;date&quot;:&quot;2020-02-17&quot;,&quot;sha512sum&quot;:&quot;666DA0381BE48D8A1B3993F18E92493121B0034BF2A346AAE098FC902937C5D0AA193C411F1983ACDB0EB45F30607A7B1C085C24D517BD7E28A83914E9B0546E&quot;,&quot;version&quot;:&quot;0.0.2&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/aoewarnings-0.0.2.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-02-20&quot;,&quot;sha512sum&quot;:&quot;DAF05C3E27C28BF80AD632CD20996079F52E41AE27D8D1827489A35147C45A28F47795154E39B0CE199CC8AF0CACD464B54920477C91BE8F28BA1BA9C3983BAC&quot;,&quot;version&quot;:&quot;0.0.3&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/aoewarnings-0.0.3.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-04-05&quot;,&quot;sha512sum&quot;:&quot;0BB261D6852909AF88EDE56517ED78F9B46991481E964BE41CEE53DCCC05A4B8D204BB53DE2DDC56126A67DF2A40EA63F1EA07946001950A13F8CB1CF07A7653&quot;,&quot;version&quot;:&quot;0.0.4&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/aoewarnings-0.0.4.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;}]}, {&quot;projectUrl&quot;:&quot;https://discord.gg/ARcwsJr&quot;,&quot;provider&quot;:&quot;xKylee&quot;,&quot;name&quot;:&quot;Blackjack&quot;,&quot;description&quot;:&quot;Allows for one-click blackjacking, both knocking out and pickpocketing&quot;,&quot;id&quot;:&quot;blackjack-plugin&quot;,&quot;releases&quot;:[{&quot;date&quot;:&quot;2020-02-17&quot;,&quot;sha512sum&quot;:&quot;4BCE2576708D4201EDCF2056F139C60419F216113597BD01DE0263330725CB146D47957733FF09A2F24A9E9BC08439AF42D1948F7305EA6906BA965596688A7A&quot;,&quot;version&quot;:&quot;0.0.3&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/blackjack-0.0.3.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-02-20&quot;,&quot;sha512sum&quot;:&quot;16856EC50877185AF4FCD76A457358E39CA7DEBE516843246A6198DE77582B58BB32EF2C17855E4F999237D6ED648AA7F13CAC606EABFA1B4D8669B6CEFACBAA&quot;,&quot;version&quot;:&quot;0.0.4&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/blackjack-0.0.4.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-03-11&quot;,&quot;sha512sum&quot;:&quot;B42C89077389BB8CF3B4BFAEC0886B27B757F21C07490A05125CE6E0DB731A06532C54200714106D0A58AC0BE42607C65BD3A22E3B21BA9E39DEE86B01BD21E7&quot;,&quot;version&quot;:&quot;0.0.5&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/blackjack-0.0.5.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-04-05&quot;,&quot;sha512sum&quot;:&quot;ACEAE2C8EB09B4D7EB7664C34EFA2742527B255391F091EAEDE607AB4ED293607E8B7CCBE47C5D84444CBEAEE0DE0D56B6A3C35C57F9F274026CA382479979DB&quot;,&quot;version&quot;:&quot;0.0.6&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/blackjack-0.0.6.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;}]}, {&quot;projectUrl&quot;:&quot;https://discord.gg/ARcwsJr&quot;,&quot;provider&quot;:&quot;xKylee&quot;,&quot;name&quot;:&quot;Cerberus&quot;,&quot;description&quot;:&quot;Show Cerberus&#39; attacks and what to pray against the summoned souls&quot;,&quot;id&quot;:&quot;cerberus-plugin&quot;,&quot;releases&quot;:[{&quot;date&quot;:&quot;2020-02-17&quot;,&quot;sha512sum&quot;:&quot;853AF080B203DB20E13BEAA2809200D69CD4E0089B1EDA09B4725260254358DC4FD06C78A1051F3DCE8FB5E75458B483640BA12EDB9300906D3EB274CF9744D7&quot;,&quot;version&quot;:&quot;0.0.3&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/cerberus-0.0.3.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-02-17&quot;,&quot;sha512sum&quot;:&quot;CA9A95960E993533F9E199736288F1C4E4F1A01F9434ECB2D2637BEE33D1766E61AEE450C28F2BF72606325669E37DC7ED4B6A329462351C8157D57FD12A738E&quot;,&quot;version&quot;:&quot;0.0.4&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/cerberus-0.0.4.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-02-20&quot;,&quot;sha512sum&quot;:&quot;C5566BA446BD80EF06BE1F6D32A30F90E6D920A89A2E31FBD6ADE2A50880C6F62922B89A6A039B9468B934EDE440335257F690D11681D1E0F5A5223A9B8F80FD&quot;,&quot;version&quot;:&quot;0.0.6&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/cerberus-0.0.6.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-02-20&quot;,&quot;sha512sum&quot;:&quot;E5A245600A1218F4453BD3FEF49B19246A77F02B21625235AD16B132D3E5AD9BE1335C9E5C6D830515529B240B9AC28D603133E06C495859F5B35D621E808E41&quot;,&quot;version&quot;:&quot;0.0.7&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/cerberus-0.0.7.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-02-21&quot;,&quot;sha512sum&quot;:&quot;938A91615BE30F19CAAF251BBF160BA90B3EDA6DFB1DCAF5FCE43E30EF2D05442A1F0DBE51DD900CEBCDD1FCE0AFE5330D6D0459625E5B9BC4180FA83AB0E188&quot;,&quot;version&quot;:&quot;0.0.8&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/cerberus-0.0.8.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-03-24&quot;,&quot;sha512sum&quot;:&quot;4F7F3C1CF449433367EA8F47E43F55424509944DADA6D0739FDECCBC76A03255B8198FF767EAFC68CAC8DF6A37D5808023A37754471AB7A9A653A54057EA9290&quot;,&quot;version&quot;:&quot;0.0.9&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/cerberus-0.0.9.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-03-31&quot;,&quot;sha512sum&quot;:&quot;B90D5548FCAB3E886441E6A06E07EB05FB8590129221BD5F3F43A9B8E9349174EAC383ACC2D4A650CB16A7234C97921B941E8BD5FC5FD619437220595C841A57&quot;,&quot;version&quot;:&quot;0.0.10&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/cerberus-0.0.10.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-04-05&quot;,&quot;sha512sum&quot;:&quot;1AEC27AA3C98D2E19D9BC016429D58B2D54A58932CD55870B78E7644C4C5245500AC69F22670A078FC5640858333DBCBE99D4F734250F6BF85C34AE1EE544F82&quot;,&quot;version&quot;:&quot;0.0.11&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/cerberus-0.0.11.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;}]}, {&quot;projectUrl&quot;:&quot;https://discord.gg/ARcwsJr&quot;,&quot;provider&quot;:&quot;xKylee&quot;,&quot;name&quot;:&quot;Clan Man Mode&quot;,&quot;description&quot;:&quot;Assists in clan PVP scenarios&quot;,&quot;id&quot;:&quot;clanmanmode-plugin&quot;,&quot;releases&quot;:[{&quot;date&quot;:&quot;2020-02-17&quot;,&quot;sha512sum&quot;:&quot;2EF9B3362BF8AAF9C6ED2162C4CCCECE95B547370D39A91CF0E287D080F87AE47F8C3929A2DDCC39213B823B4E669AF2437D5672D9C69CB43840672F3DF6D39D&quot;,&quot;version&quot;:&quot;0.0.2&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/clanmanmode-0.0.2.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-02-20&quot;,&quot;sha512sum&quot;:&quot;48EF6AA6B8EA5703075754AEA1C44D24F6495EFD45B9F6A69DEB93C5C3E2833580EC3E500EF0344D7DAE2C988DCBD37AFA098CAC837781989834780AD1E3FD8D&quot;,&quot;version&quot;:&quot;0.0.3&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/clanmanmode-0.0.3.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-04-05&quot;,&quot;sha512sum&quot;:&quot;E8EF8798170A9CC10FE96540CF32ADD24AACE36F7F09F386F6736275ECC0844D5350D9EA0C2480B7B056A4089690B6BF520A215C3986F39A19E5BBEB60C9BF86&quot;,&quot;version&quot;:&quot;0.0.4&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/clanmanmode-0.0.4.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;}]}, {&quot;projectUrl&quot;:&quot;https://discord.gg/ARcwsJr&quot;,&quot;provider&quot;:&quot;xKylee&quot;,&quot;name&quot;:&quot;CoX Helper&quot;,&quot;description&quot;:&quot;All-in-one plugin for Chambers of Xeric&quot;,&quot;id&quot;:&quot;coxhelper-plugin&quot;,&quot;releases&quot;:[{&quot;date&quot;:&quot;2020-02-17&quot;,&quot;sha512sum&quot;:&quot;039223AD4379851B9D6F3FE5F1981E814E9ED25B26398290B0332B11FD6E8C87F3793EF750A88297BC67AF8F374394EF57C4DDAC1C71D660E788CBEC1D099165&quot;,&quot;version&quot;:&quot;0.0.3&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/coxhelper-0.0.3.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-02-20&quot;,&quot;sha512sum&quot;:&quot;4CCA5BF554A9A6CB3D085CA28FDDF320C1E8CFFA97E165CCBFEF827FA7798FBBB81FB69E5E32F65546E14F8E908D32CD1458A42635F67B2A0A4CA5345CAFA922&quot;,&quot;version&quot;:&quot;0.0.4&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/coxhelper-0.0.4.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-04-05&quot;,&quot;sha512sum&quot;:&quot;F7E722830A4B91668693B7ABCB627274A9A112D5C4A113C7B456F35A164D2B8E4EE9087C184AC78B9BDC521128810E6644E66FCFC8E406358B7B9722A2F976E4&quot;,&quot;version&quot;:&quot;0.0.5&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/coxhelper-0.0.5.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;}]}, {&quot;projectUrl&quot;:&quot;https://discord.gg/ARcwsJr&quot;,&quot;provider&quot;:&quot;xKylee&quot;,&quot;name&quot;:&quot;Demonic Gorillas&quot;,&quot;description&quot;:&quot;Count demonic gorilla attacks and display their next possible attack styles&quot;,&quot;id&quot;:&quot;demonicgorillas-plugin&quot;,&quot;releases&quot;:[{&quot;date&quot;:&quot;2020-02-17&quot;,&quot;sha512sum&quot;:&quot;050CAB44277736A99F435B17F3FF92F689AF0F6612268EB44D24A21CC427D72CCA70E8D7115647936C95757C6261583A0D4AA292BCB011CAD0DDA141EBBE14E1&quot;,&quot;version&quot;:&quot;0.0.2&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/demonicgorilla-0.0.2.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-02-20&quot;,&quot;sha512sum&quot;:&quot;49C23A36B3DEB5A1F03625EAE138864547194E90F4BF513211359775E15E078789B6E3D46F89634B5ACB9796FBFF956C525709CB862064CADA4498B4AFBC2FA4&quot;,&quot;version&quot;:&quot;0.0.3&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/demonicgorilla-0.0.3.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-03-05&quot;,&quot;sha512sum&quot;:&quot;93B5E1E74246572A74E87D75BC8EE2AC6E92B5FAF2892C78086CB69B943C589218E3348F4AB9A9D933779CD961681FA931108ADEA865497F88D11D9488CC727D&quot;,&quot;version&quot;:&quot;0.0.4&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/demonicgorilla-0.0.4.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-04-05&quot;,&quot;sha512sum&quot;:&quot;900FF6A2538A74C8385C75FD3278751502123604AB82FCE13FC5D3B5CD8DC31249285A52F7A67C6D9A38B4434B5E34A727599F841162DE7F2F16107608C0ABE6&quot;,&quot;version&quot;:&quot;0.0.5&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/demonicgorilla-0.0.5.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;}]}, {&quot;projectUrl&quot;:&quot;https://discord.gg/ARcwsJr&quot;,&quot;provider&quot;:&quot;xKylee&quot;,&quot;name&quot;:&quot;Drop Party&quot;,&quot;description&quot;:&quot;Marks where a user ran, for drop partys&quot;,&quot;id&quot;:&quot;dropparty-plugin&quot;,&quot;releases&quot;:[{&quot;date&quot;:&quot;2020-02-17&quot;,&quot;sha512sum&quot;:&quot;3D37D8DA83093DF13A5087CE01A81FE5BC1B6F909C59FECE0A13173B155910DFABA1BEC71EFF2E1048E9D2CCD7FB3CCEBCDFA98C9A888178B3EF37D556BEFCB2&quot;,&quot;version&quot;:&quot;0.0.2&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/dropparty-0.0.2.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-02-20&quot;,&quot;sha512sum&quot;:&quot;2873C7B2B35A309D43DBDEAB99F1A7E0A5C33E3CCD4458AE3C4B2213475802D020ABC96BA589F3018AB1835CFD33A6BFF473EE43AE5C26B48B5B648C3FC1C5C6&quot;,&quot;version&quot;:&quot;0.0.3&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/dropparty-0.0.3.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-03-05&quot;,&quot;sha512sum&quot;:&quot;1F2594FEA6CAF2A4862CD7AD93BC1F1EA4EC1A918A6DFBED43CEFA2A2C51BCBCBC6F300E90325EEECB8292E6EEB621521D5EEAB5C28169BD87A041C7A9AC3DEE&quot;,&quot;version&quot;:&quot;0.0.4&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/dropparty-0.0.4.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-04-05&quot;,&quot;sha512sum&quot;:&quot;19A6CA72241FD238427D50F9E086E084FDC44C3D93B847B3588ABBD934E1774676FF365195012F6C078DBE19155FD6F6A49E63188D06159017CDE4B17DFB257D&quot;,&quot;version&quot;:&quot;0.0.5&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/dropparty-0.0.5.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;}]}, {&quot;projectUrl&quot;:&quot;https://discord.gg/ARcwsJr&quot;,&quot;provider&quot;:&quot;xKylee&quot;,&quot;name&quot;:&quot;Dynamic Max Hit&quot;,&quot;description&quot;:&quot;Dynamic Max Hit Calculations&quot;,&quot;id&quot;:&quot;dynamicmaxhit-plugin&quot;,&quot;releases&quot;:[{&quot;date&quot;:&quot;2020-02-17&quot;,&quot;sha512sum&quot;:&quot;B64AB6F9B445DD4C71BD6196524801BD6428F062B230704AADDBC02BB23014FFE08AE49F79CA04A843A04561FE74D4060DAE48E9896DED88E1416B443EA2ACE2&quot;,&quot;version&quot;:&quot;0.0.2&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/dynamicmaxhit-0.0.2.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-02-20&quot;,&quot;sha512sum&quot;:&quot;F77F52D105A71355446E46BC4BAB63EAFE017FBB75CC0AA9B667E6445B3E171BE53F002525963EE783BF93E4DA2863E432C05C723308017D166C6D0EE9D40FBC&quot;,&quot;version&quot;:&quot;0.0.3&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/dynamicmaxhit-0.0.3.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-04-05&quot;,&quot;sha512sum&quot;:&quot;7C09C5B2EF02C4966056567D43B12DCD7449BFCBFA54F12E3757F2FC8281B454F4C2182780561DB01ED6DAA1CBBF91AE81CBBAB58B9C0AD06236A86DC2D88ADB&quot;,&quot;version&quot;:&quot;0.0.4&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/dynamicmaxhit-0.0.4.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;}]}, {&quot;projectUrl&quot;:&quot;https://discord.gg/ARcwsJr&quot;,&quot;provider&quot;:&quot;xKylee&quot;,&quot;name&quot;:&quot;Effect Timers&quot;,&quot;description&quot;:&quot;Effect timer overlay on players&quot;,&quot;id&quot;:&quot;effecttimers-plugin&quot;,&quot;releases&quot;:[{&quot;date&quot;:&quot;2020-02-17&quot;,&quot;sha512sum&quot;:&quot;E94020B207E97665870658D6C70451D54E59D6DF78C2C825E8774F7EEFEEB513685272E380DBD28B8DEE1A78D2E0C580914F4A7499A98D85E3601BA19D81C6B9&quot;,&quot;version&quot;:&quot;0.0.2&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/effecttimers-0.0.2.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-02-20&quot;,&quot;sha512sum&quot;:&quot;F8070BCF850AB7D422FFF1E9BF57FDBD0ECCA3F6ECCE2081F13E81B8247FF963F25693108DE7186241D016389E066A58066744CB4B39A013A4C33FA1CCCCDB5C&quot;,&quot;version&quot;:&quot;0.0.3&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/effecttimers-0.0.3.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-02-22&quot;,&quot;sha512sum&quot;:&quot;9CEE2181DDC8B3D09F3395D3C42AFDAF9EF36DE260854D2630D76132B5857E3A02320ABA378C54B6515D380FC20EA3CFE8C537E91EBDCAA6BA3A556B5B6AF4A3&quot;,&quot;version&quot;:&quot;0.0.4&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/effecttimers-0.0.4.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-02-23&quot;,&quot;sha512sum&quot;:&quot;6C48AF2502562657759FA295F5C225A41090CE57F9A68187D3D31AFAC9AD846A6A15643E9FC2FE951839DAD050AA3E10167DE7A58F082D4670090268CC616645&quot;,&quot;version&quot;:&quot;0.0.5&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/effecttimers-0.0.5.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-04-05&quot;,&quot;sha512sum&quot;:&quot;EA7EFD6D00366C1D8C1083ABFEFE9217299A979B2A9239337CA15771D7474052D34DDCAE87DB000C61DACDBD0F46B415C34C9ADB6BEE94E93455F0CB5D4BD9A2&quot;,&quot;version&quot;:&quot;0.0.6&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/effecttimers-0.0.6.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;}]}, {&quot;projectUrl&quot;:&quot;https://discord.gg/ARcwsJr&quot;,&quot;provider&quot;:&quot;xKylee&quot;,&quot;name&quot;:&quot;Entity Hider Extended&quot;,&quot;description&quot;:&quot;Hide players, NPCs, and/or projectiles&quot;,&quot;id&quot;:&quot;entityhiderextended-plugin&quot;,&quot;releases&quot;:[{&quot;date&quot;:&quot;2020-02-24&quot;,&quot;sha512sum&quot;:&quot;AAA49974AA91937341B535D25C6B37D9212E5873CC584C6B6E490A87E93CA828A262CBB313E02D2EA3F3A53D9DFD8AFDB95BC9532D4A56433ADA6D74F8ADDCDB&quot;,&quot;version&quot;:&quot;0.0.1&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/entityhiderextended-0.0.1.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-04-05&quot;,&quot;sha512sum&quot;:&quot;7C8727A00885325F8DC2EB9A707F934ED295075925C8896853BBE6D885B65CBFF986CDF5DC22CAAE6F1C341E3440B572757C8040CF20A26DE16591133EFD0474&quot;,&quot;version&quot;:&quot;0.0.2&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/entityhiderextended-0.0.2.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;}]}, {&quot;projectUrl&quot;:&quot;https://discord.gg/ARcwsJr&quot;,&quot;provider&quot;:&quot;xKylee&quot;,&quot;name&quot;:&quot;Fight Cave&quot;,&quot;description&quot;:&quot;Displays current and upcoming wave monsters in the Fight Caves&quot;,&quot;id&quot;:&quot;fightcave-plugin&quot;,&quot;releases&quot;:[{&quot;date&quot;:&quot;2020-02-17&quot;,&quot;sha512sum&quot;:&quot;4C5F48BF389B68F2DBB94BFF1366A3B00EE9A3E34361591EE9B81571A16ED52EC6F8D8A5C28A1921A8EF4704AB55E8B38D89C790F1AB2676BAEB8AFEBF6CB352&quot;,&quot;version&quot;:&quot;0.0.2&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/fightcave-0.0.2.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-02-20&quot;,&quot;sha512sum&quot;:&quot;9407381B5DCB81B901A256FEE41E24B0866522878B8E77E953F12E3B1067EA23441AF4064CBC92415AE1F852EC6236FA6081535252324C4AFF89583C7EB06A63&quot;,&quot;version&quot;:&quot;0.0.3&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/fightcave-0.0.3.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-02-21&quot;,&quot;sha512sum&quot;:&quot;0E162B23B938400784DD89C0AB8D77FE00663F11A9EA9E0F1E08DEE5F45599BF20320DDC9B8B2DD65DE299A4E741F4801320E7C7E935528DF38316066267565B&quot;,&quot;version&quot;:&quot;0.0.4&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/fightcave-0.0.4.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-03-26&quot;,&quot;sha512sum&quot;:&quot;0518593E84E635A3228FC1BE41BFE4C6AF5A86B17851A0061AFBD967BC587D7023D6C484A94C1D3919323B0A5341EB9A4C918C577EB601C4DCDC9DA9E9014308&quot;,&quot;version&quot;:&quot;0.0.5&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/fightcave-0.0.5.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-04-05&quot;,&quot;sha512sum&quot;:&quot;6A61A79D290293363F2C6BF0AA53007BA6A3194D4C39F759218808A7455639FA7D2C58B817094DD8CF76E3D530D401E533449BB63322E0CD64F595913601C147&quot;,&quot;version&quot;:&quot;0.0.6&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/fightcave-0.0.6.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;}]}, {&quot;projectUrl&quot;:&quot;https://discord.gg/ARcwsJr&quot;,&quot;provider&quot;:&quot;xKylee&quot;,&quot;name&quot;:&quot;Gauntlet&quot;,&quot;description&quot;:&quot;All-in-one plugin for the Gauntlet&quot;,&quot;id&quot;:&quot;gauntlet-plugin&quot;,&quot;releases&quot;:[{&quot;date&quot;:&quot;2020-02-17&quot;,&quot;sha512sum&quot;:&quot;9BBC5A5A9F1689BBACD918B93386A71A828AC01B3924A56D6719BA23A5EFF2CB6C3F55BA03487B54F9DF52EB8A14BDC2B0F51958B4E73BF27DA871D7E4252FAC&quot;,&quot;version&quot;:&quot;0.0.2&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/gauntlet-0.0.2.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-02-20&quot;,&quot;sha512sum&quot;:&quot;BDB1162F4F02B8F2DA77786830E60ACE85821C190D31ED8A84DA53B938061469A1A718530625DE98E6AFA58221F5AF98B42A9CFF87E2F6FE9E8531A2975BEA95&quot;,&quot;version&quot;:&quot;0.0.3&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/gauntlet-0.0.3.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-04-05&quot;,&quot;sha512sum&quot;:&quot;F2DC3CF2DD47BE5458911EE2631B6BF74EA70A9EC7EABD8C6232F1F59BD979A26A6B5DA3DBDD3A58EDEB6B8FF91072A9B9A43FAB80CB07785ED9D47F0C8FC9DC&quot;,&quot;version&quot;:&quot;0.0.4&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/gauntlet-0.0.4.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;}]}, {&quot;projectUrl&quot;:&quot;https://discord.gg/ARcwsJr&quot;,&quot;provider&quot;:&quot;xKylee&quot;,&quot;name&quot;:&quot;Grotesque Guardians&quot;,&quot;description&quot;:&quot;Show various helpful utitiles during the Grotesque Gaurdians (Gargoyles) fight&quot;,&quot;id&quot;:&quot;grotesqueguardians-plugin&quot;,&quot;releases&quot;:[{&quot;date&quot;:&quot;2020-02-17&quot;,&quot;sha512sum&quot;:&quot;12BF0931CEF50BDCC919A808EE8402F40DE1A3D0114978188FB24090CDED7454604FF21CCAF7346A78BDABB4A7B75047818A1DF28CB86106BB33139D28900BEC&quot;,&quot;version&quot;:&quot;0.0.2&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/grotesqueguardians-0.0.2.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-02-20&quot;,&quot;sha512sum&quot;:&quot;764C9F89DBC8760E450B0EE77C0882DEBE166D0551C73E988C721E83D2B138B5EE65DA29ACF5E8B256A1E22F9D98F0FFBCF3E437CCF9A7070FF9BD4B812AACD5&quot;,&quot;version&quot;:&quot;0.0.3&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/grotesqueguardians-0.0.3.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-02-26&quot;,&quot;sha512sum&quot;:&quot;3CB06774BF7CAE82C2B83BCA7E0C264B802D15E42C336016FC5254AD771F68B664E3D9CCD58D3EF97EF9B8277AD25CA43074B5B9BFEB7BF97B350D7A2D9A9918&quot;,&quot;version&quot;:&quot;0.0.4&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/grotesqueguardians-0.0.4.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-04-05&quot;,&quot;sha512sum&quot;:&quot;B251057DEA3339713766440FD26870C1F19846D6433F91DDB680E45E3EA7569E51A8FF85D75F8016596CB33656BEF80C5E676E15BC4BF16C197673D4A468E4CE&quot;,&quot;version&quot;:&quot;0.0.5&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/grotesqueguardians-0.0.5.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-04-17&quot;,&quot;sha512sum&quot;:&quot;B2E8047354D7F8FE12A7FE17633C0E3C3F4E09AA55A3EAD3F21689DBC40E88E0D91FD92D24354A110B9D952D9A72BBDF9ACC6E12DE47082F81B582B3E34ECE02&quot;,&quot;version&quot;:&quot;0.0.6&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/grotesqueguardians-0.0.6.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;}]}, {&quot;projectUrl&quot;:&quot;https://discord.gg/ARcwsJr&quot;,&quot;provider&quot;:&quot;xKylee&quot;,&quot;name&quot;:&quot;Show/Hide Prayers&quot;,&quot;description&quot;:&quot;Hides specific Prayers&quot;,&quot;id&quot;:&quot;showhideprayers-plugin&quot;,&quot;releases&quot;:[{&quot;date&quot;:&quot;2020-02-17&quot;,&quot;sha512sum&quot;:&quot;65BEB3F11B1D3ACC00935491A79C1A4D4E8C618449C07E45333124F4D4F878F06CBA11FBC2FB574BABA26A5D91F475BFBB5FA739799AD745812D2ED2560E1E26&quot;,&quot;version&quot;:&quot;0.0.2&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/hideprayers-0.0.2.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-02-20&quot;,&quot;sha512sum&quot;:&quot;0E799443771F186244AC4EE3183A71866DE24F15CC826A967E167A94A4897EE1653DCA95C553B8A11DA05FB2BFFA351F6468D452E862A7DF210AA608BAEB768F&quot;,&quot;version&quot;:&quot;0.0.3&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/hideprayers-0.0.3.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-04-05&quot;,&quot;sha512sum&quot;:&quot;7AB35F985E1A24D7507A04589DA5038710B24568B5353030492EC5C498D001C1A00036B35C058847E3CC9F5AC607EEB6B348705A657615CDF11B8F27A7E26CAA&quot;,&quot;version&quot;:&quot;0.0.4&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/hideprayers-0.0.4.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;}]}, {&quot;projectUrl&quot;:&quot;https://discord.gg/ARcwsJr&quot;,&quot;provider&quot;:&quot;xKylee&quot;,&quot;name&quot;:&quot;Hide Under&quot;,&quot;description&quot;:&quot;Hide local player when under targeted players&quot;,&quot;id&quot;:&quot;hideunder-plugin&quot;,&quot;releases&quot;:[{&quot;date&quot;:&quot;2020-02-17&quot;,&quot;sha512sum&quot;:&quot;E5E658F3E6B571527E40CC015D3E8C9B7CB9912135F049125BD5F128E9408DB9A57C6494970458832467121A0E9CAF4BE29B132FDDCDFBDC8511989810EBBE03&quot;,&quot;version&quot;:&quot;0.0.2&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/hideunder-0.0.2.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-02-20&quot;,&quot;sha512sum&quot;:&quot;C4FAF3C274F2A1EF32DD4E9182DD98F7980D1549CF0B08DD061876A84AC542DDAFF6704054F151F969964ED868ACDE5F99BD41BAE408FF00A98FCDC816922ED2&quot;,&quot;version&quot;:&quot;0.0.3&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/hideunder-0.0.3.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-04-05&quot;,&quot;sha512sum&quot;:&quot;F63449D48A17DE51440E1A0C2FE22886FD6DFBC0427B7DF046CB14E89737A691B891257FCB82001DB0CEBABAE14F736AD396D8F335D8893DE0EBE3482A72681E&quot;,&quot;version&quot;:&quot;0.0.4&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/hideunder-0.0.4.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;}]}, {&quot;projectUrl&quot;:&quot;https://discord.gg/ARcwsJr&quot;,&quot;provider&quot;:&quot;xKylee&quot;,&quot;name&quot;:&quot;Hydra Helper&quot;,&quot;description&quot;:&quot;Overlays for small hydras&quot;,&quot;id&quot;:&quot;hydrahelper-plugin&quot;,&quot;releases&quot;:[{&quot;date&quot;:&quot;2020-02-17&quot;,&quot;sha512sum&quot;:&quot;B9FE1DCAABE7EE31B7A051795386DD75DA147F389756F53077E6CE5845C0A4173E572A11A8E83B01177FCDCFD388C8ED6EDE156AAE742FBC202E3FD307791E2A&quot;,&quot;version&quot;:&quot;0.0.2&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/hydra-0.0.2.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-02-20&quot;,&quot;sha512sum&quot;:&quot;7ACCD28A1EAE9FB12A4E1E6DBBDAB943AE2C34280A4E59401A915AB006DFD3518836C1EF89721DE0A5FC11C76F4ACC2D2DEEEDEF4ABEFDD8A1982F4389FDDA44&quot;,&quot;version&quot;:&quot;0.0.3&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/hydra-0.0.3.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-04-05&quot;,&quot;sha512sum&quot;:&quot;60F0BAD8A9C6B16ACA83388F46ADBF5DEC70A0B7A0C703FB9F4391A7463D807A160AC93ECFAE437CECA2BAE48037E08436369C7B230D721B2BC97FE5C9FAA57C&quot;,&quot;version&quot;:&quot;0.0.4&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/hydra-0.0.4.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;}]}, {&quot;projectUrl&quot;:&quot;https://discord.gg/ARcwsJr&quot;,&quot;provider&quot;:&quot;xKylee&quot;,&quot;name&quot;:&quot;Inferno&quot;,&quot;description&quot;:&quot;Inferno helper&quot;,&quot;id&quot;:&quot;inferno-plugin&quot;,&quot;releases&quot;:[{&quot;date&quot;:&quot;2020-02-17&quot;,&quot;sha512sum&quot;:&quot;86C20E6D5F156FD27C4B48003CB2393E2D8FEACA03DEE8D048715EFE81820F6D16389794EF2CC25D12C083E2646236B8A2F2B4D2ABD33568E9C44B5010C64EFE&quot;,&quot;version&quot;:&quot;0.0.2&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/inferno-0.0.2.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-02-20&quot;,&quot;sha512sum&quot;:&quot;CDCBA41556FD139FD280529FE4D0894B41947D3FD1402CFC1004CCF295848BB88A819FDA913D4E4635D186B436A390068A3B313ED6F3D43239D8168466B925F2&quot;,&quot;version&quot;:&quot;0.0.3&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/inferno-0.0.3.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-03-08&quot;,&quot;sha512sum&quot;:&quot;286209D261AE6B8FFA1F669F35A6F3CBD71C8DEF7BB04E018FE5E80066B356D2844306E9BE5BD9B4CE9DF23236D69B1733A1AFC93AA19D97BE5FDD88BFF65997&quot;,&quot;version&quot;:&quot;0.0.4&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/inferno-0.0.4.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-04-04&quot;,&quot;sha512sum&quot;:&quot;844B72B38687330D4F279C91F10F78C75CE9DE89EE0C9066B1F3268F015418219D242D882094C9A9C19C45248DC484588A826CAE36131812D247AF24075C1D65&quot;,&quot;version&quot;:&quot;0.0.5&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/inferno-0.0.5.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-04-05&quot;,&quot;sha512sum&quot;:&quot;55656BD99136303392B1DB7E43AED745BBC17665178CE8A2BB859D794F219448C93A8C72885E50C32E5C6711C4F1BD83E50E0AD205F7290ECCA737389BD7C416&quot;,&quot;version&quot;:&quot;0.0.6&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/inferno-0.0.6.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;}]}, {&quot;projectUrl&quot;:&quot;https://discord.gg/ARcwsJr&quot;,&quot;provider&quot;:&quot;xKylee&quot;,&quot;name&quot;:&quot;Lizard Shamans&quot;,&quot;description&quot;:&quot;Configures timer for lizardmen shaman spawns&quot;,&quot;id&quot;:&quot;lizardshamans-plugin&quot;,&quot;releases&quot;:[{&quot;date&quot;:&quot;2020-02-17&quot;,&quot;sha512sum&quot;:&quot;FB0724C2AC94B2F137BF98BB926D07F09D885C3C78925440C4CCFB2F16709BC27FA984D2DC66F59F2DD8F7454D9D62983F56E019C4978F146BFF0AA8B6C95E47&quot;,&quot;version&quot;:&quot;0.0.2&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/lizardmenshaman-0.0.2.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-02-20&quot;,&quot;sha512sum&quot;:&quot;00AB02817D355A2B4F0E7208A9E80C487BAC022890EC188418DEE20A3CB4131BAFFA4AD064802CB3DB0B977C87409DB72FF412A74E9AC39D874E56421F9A2301&quot;,&quot;version&quot;:&quot;0.0.3&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/lizardmenshaman-0.0.3.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-02-21&quot;,&quot;sha512sum&quot;:&quot;D7285C56030245D2F0EEE63A5010DA6A38197D8DE2E84E16118F06C8F2166327C0C2EF3E4A9FCFAD6D59A69E91BC5AE5305923034FDBD89EE3222E4FEF8F41E7&quot;,&quot;version&quot;:&quot;0.0.4&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/lizardmenshaman-0.0.4.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-04-05&quot;,&quot;sha512sum&quot;:&quot;F0887431B32624204A0591A9A6FE5C891518B7CD5E0C5FA4D5C0FA9F537ABC40BC647110D064A483E46B0CC6DD182578E8811D3423D001E8ED120F1886755E7C&quot;,&quot;version&quot;:&quot;0.0.5&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/lizardmenshaman-0.0.5.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;}]}, {&quot;projectUrl&quot;:&quot;https://discord.gg/ARcwsJr&quot;,&quot;provider&quot;:&quot;xKylee&quot;,&quot;name&quot;:&quot;Loot Assist Plugin&quot;,&quot;description&quot;:&quot;Creates a tile overlay with a timer that counts down to when the loot will appear to you&quot;,&quot;id&quot;:&quot;lootassistplugin-plugin&quot;,&quot;releases&quot;:[{&quot;date&quot;:&quot;2020-02-17&quot;,&quot;sha512sum&quot;:&quot;30897225426C034B8990B3F8FDA7750D74FDCEB9106E02CC850575AB9B69E3362C8AE5C943FD16BC385B9A53E47AD8AEE989D2DC9E71BB8D7B20ED2B825C1EC0&quot;,&quot;version&quot;:&quot;0.0.2&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/lootassist-0.0.2.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-02-20&quot;,&quot;sha512sum&quot;:&quot;730115FE96B3EB611E9664A13FC1DD6D8ACB448BF698EB9B8F297067702857B510EB7E275BCCACA046631C86B3DB0BBCEC2D01AC48CB018A3F4A5DA913B0E689&quot;,&quot;version&quot;:&quot;0.0.3&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/lootassist-0.0.3.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-04-05&quot;,&quot;sha512sum&quot;:&quot;2CB516769D78FB2BA278D2D393731B08A0991FB122FE07F5C446D6F7757363E37CC3BF9BE74C4024C0ED15FF591967BA3CED4154607BD63FE29B576B2625E4B3&quot;,&quot;version&quot;:&quot;0.0.4&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/lootassist-0.0.4.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;}]}, {&quot;projectUrl&quot;:&quot;https://discord.gg/ARcwsJr&quot;,&quot;provider&quot;:&quot;xKylee&quot;,&quot;name&quot;:&quot;Menu Entry Swapper Extended&quot;,&quot;description&quot;:&quot;Change the default option that is displayed when hovering over objects&quot;,&quot;id&quot;:&quot;menuentryswapperextended-plugin&quot;,&quot;releases&quot;:[{&quot;date&quot;:&quot;2020-02-27&quot;,&quot;sha512sum&quot;:&quot;210DA80D48DE364A92723CA247246A923A24322A6B2A42DB80321F068B4913A0E36F21383FAF4723AE559A0916FEA33E4869F6B93DD594F31E4C73546B8C479E&quot;,&quot;version&quot;:&quot;0.0.1&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/menuentryswapperextended-0.0.1.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-02-27&quot;,&quot;sha512sum&quot;:&quot;992C824D7579A57650544BC4FA66338E0A49B2FFDE9FE6A9E95B492025F18C266E85E85384C0B3CE7519390DC296F9E184B1FCA488DCE357AFB16EC57803ECC0&quot;,&quot;version&quot;:&quot;0.0.2&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/menuentryswapperextended-0.0.2.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-02-27&quot;,&quot;sha512sum&quot;:&quot;B81A30A9BAA850D1AAEA7632C36CC84A90CAC7B058AA2275F37E17CD3765F208B965A6FF99A5DA09D0F1EF9C75ED57AEF21D94B17DD5CBB531B9948C7CEFF39B&quot;,&quot;version&quot;:&quot;0.0.3&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/menuentryswapperextended-0.0.3.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-02-27&quot;,&quot;sha512sum&quot;:&quot;F06C4F8EC526AC72D457A3F7373A5828A46B3B34B3AE1419E246D5D9ECEA8D98F616C91E3F8180FFD14D932420172AA9B65FABB77D19F70FA45D8FF78EE985F6&quot;,&quot;version&quot;:&quot;0.0.4&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/menuentryswapperextended-0.0.4.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-02-28&quot;,&quot;sha512sum&quot;:&quot;3DD7A4911C43019F76D8C6C5DE9BC607A6CB2C5287A15A435849FAEB194B9DD061BA3A5C620EA7787F5A159B505B0FE2006AEAA070027BA8A1B3456BC90F5DF7&quot;,&quot;version&quot;:&quot;0.0.5&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/menuentryswapperextended-0.0.5.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-03-01&quot;,&quot;sha512sum&quot;:&quot;7EBD383B296B86BAE7F1B97C2F210A8D4C416A66D0403399429EA6DC1527615F2BBE2F3EE6D0DB9519E78A0CBD4AE908C630E9053F86D24CCC8AF96706525029&quot;,&quot;version&quot;:&quot;0.0.6&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/menuentryswapperextended-0.0.6.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-03-05&quot;,&quot;sha512sum&quot;:&quot;67E226D0879275494E1DF4631883E66FF74CADDA23EE5ACEF757E94F5757263ADCC06F2984DD7E278EF5A279609B6720E93367DBFC47336235C234321D3853D9&quot;,&quot;version&quot;:&quot;0.0.7&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/menuentryswapperextended-0.0.7.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-03-05&quot;,&quot;sha512sum&quot;:&quot;84F7BF6B98590A8AC5444328951330AF3FF6547DC357193D4A205D35F8355EC4CB2D9A7DF8CB646BE00825C0E3535C5883EEE887F69F79BC326A25B6F8932F1E&quot;,&quot;version&quot;:&quot;0.0.8&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/menuentryswapperextended-0.0.8.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-03-11&quot;,&quot;sha512sum&quot;:&quot;A8BF6F898E5B51E55F0FDD65D85CC97D93D8F324CCFC0F6AE7137E108CF82B138A101737A1685CD2192144E4613E131275FC6886A1D41400FBF60A10212B2C73&quot;,&quot;version&quot;:&quot;0.0.9&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/menuentryswapperextended-0.0.9.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-03-20&quot;,&quot;sha512sum&quot;:&quot;9BFF0A9AE02EF2D5BF380EE4102CDF0D0B3054EF69423740389FE5E6AFE58F1592BCFE014C961AD4C7AF3D177E5BF86807F26F6529E295E763BB10C78BC81E95&quot;,&quot;version&quot;:&quot;0.0.10&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/menuentryswapperextended-0.0.10.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-03-28&quot;,&quot;sha512sum&quot;:&quot;6E77B3A7D00FF5EC017083556952B36DFDB9D52A100A34769E7A89FE4CF3B57769EE4C87D981DD9704A69C8F2587F3080DB007A416F3D984865B39B6E291A95F&quot;,&quot;version&quot;:&quot;0.0.11&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/menuentryswapperextended-0.0.11.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-04-05&quot;,&quot;sha512sum&quot;:&quot;A8EDAC23118F29CD3E1F9F8AB58BF7FD285823DCFA0C3780FDCEFB15BB82AC5B29104482433D87CA7895E0A092ECAE4178FDAFF05CEF83F5FF4BEB232A211B25&quot;,&quot;version&quot;:&quot;0.0.12&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/menuentryswapperextended-0.0.12.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;}]}, {&quot;projectUrl&quot;:&quot;https://discord.gg/ARcwsJr&quot;,&quot;provider&quot;:&quot;xKylee&quot;,&quot;name&quot;:&quot;Multi Lines&quot;,&quot;description&quot;:&quot;Show borders of multicombat and PvP safezones&quot;,&quot;id&quot;:&quot;multilines-plugin&quot;,&quot;releases&quot;:[{&quot;date&quot;:&quot;2020-02-17&quot;,&quot;sha512sum&quot;:&quot;69D3BA706F92032596B14EE16D5C660246F04CEB40D812B01FEC6EBCB117C5671C71A38401D0524A9BDCD648A1C541FC05D3DEA57F2459C7D1F4346AC3656A71&quot;,&quot;version&quot;:&quot;0.0.2&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/multiindicators-0.0.2.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-02-20&quot;,&quot;sha512sum&quot;:&quot;592D903479A1899D70BF1C5705EF6085EFF060912FB0983BE6F512F81514A576EDFF017230BE264BA805C3E3AE1F95029545B076C8AB6C7986B01CE017C57EB3&quot;,&quot;version&quot;:&quot;0.0.3&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/multiindicators-0.0.3.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-04-05&quot;,&quot;sha512sum&quot;:&quot;FE6F855C6371ADB5A2D2A049D4EF93660012EDBFA668D4A7ED7191FF17C7ADB0571F1ECA3C9988121698A22F3A0EC6EF758153A89704125EAAA83BCD84E6CE2B&quot;,&quot;version&quot;:&quot;0.0.4&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/multiindicators-0.0.4.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;}]}, {&quot;projectUrl&quot;:&quot;https://discord.gg/ARcwsJr&quot;,&quot;provider&quot;:&quot;xKylee&quot;,&quot;name&quot;:&quot;Nightmare of Ashihama&quot;,&quot;description&quot;:&quot;Shows what to pray and what to do at Nightmare of Ashihama&quot;,&quot;id&quot;:&quot;nightmareofashihama-plugin&quot;,&quot;releases&quot;:[{&quot;date&quot;:&quot;2020-02-17&quot;,&quot;sha512sum&quot;:&quot;FC1AC96FBC0E75162A6136C688A6E107009A62C4120B30675C4380EC8C3FFBC8726C30361F7E5AFFD4590DD3A434A3E18866D6EBA1352B97C4B3290312020385&quot;,&quot;version&quot;:&quot;0.0.1&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/nightmare-0.0.1.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-02-20&quot;,&quot;sha512sum&quot;:&quot;6B3CB70E9A83BDE6EB3F2279AE853CF04F7147CD5D4471E9A7D18856F181C0A208BEEA24BF395CBBE033F581669EAB8FE4B1B027376954AAECF065B56FE7C48E&quot;,&quot;version&quot;:&quot;0.0.2&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/nightmare-0.0.2.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-02-21&quot;,&quot;sha512sum&quot;:&quot;46D9C9EA4CDBAAE960356AB1579B9B22D80DDABAE8C1351C8EFCCC7DB931A0B9F9CAD44A85F5A31547392FF3B6937F04432F275323C297A6BE8153334DC08692&quot;,&quot;version&quot;:&quot;0.0.3&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/nightmare-0.0.3.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-02-24&quot;,&quot;sha512sum&quot;:&quot;1437F48FC9A52728AA9187EFF6EA6E2164DD3815863DE034002179CAD696830536313D28CC6A6714AC4A574E441C06DA079C5A3CCE74246E1D2E2FBE2196F0A1&quot;,&quot;version&quot;:&quot;0.0.4&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/nightmare-0.0.4.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-02-26&quot;,&quot;sha512sum&quot;:&quot;F472F7BB84ADA74851FC4315BC941BB66C717D507535EFAA8561AF062B5AB1FD3D4044E34EE5A145710B0F7955E1602A8CC50D62E2769B7B7C37EAB8E390C9D4&quot;,&quot;version&quot;:&quot;0.0.5&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/nightmare-0.0.5.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-02-27&quot;,&quot;sha512sum&quot;:&quot;AB64B3670EE90EA233B603248F37310985EFBB9A73E234AA5C0DFD31A614BBD431627EB5F9686E6CF33E7878DD6BD1C94300AD16D9BF1B761384FD68E3163CE6&quot;,&quot;version&quot;:&quot;0.0.7&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/nightmare-0.0.7.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-03-02&quot;,&quot;sha512sum&quot;:&quot;471752B7EE951D0A3B0275C52E875B4A67F4E518EEF708FC2053E961E49C9D2034C1BB9766B998CACACE62C72C8AE7F63CB5709E59A76549D4A6A8AEBA5EBEE1&quot;,&quot;version&quot;:&quot;0.0.8&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/nightmare-0.0.8.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-03-22&quot;,&quot;sha512sum&quot;:&quot;11E48A1418BD57069530B6B505527F67E793FF86859C241647B1665AD917ECAD1A9448B1EED2C31ADB24E04FED977644ACD217632B0F6980948CCE048FAFF90E&quot;,&quot;version&quot;:&quot;0.0.9&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/nightmare-0.0.9.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-04-01&quot;,&quot;sha512sum&quot;:&quot;54951B21D084E6B281E6926EB30F6276DB52D4BB0A45E5E01F5D3ABED2CE785DC997663E0B9D203F7AA86B01C5C3450ED5FD6885B853503A61690E4D7A88DC3B&quot;,&quot;version&quot;:&quot;0.0.10&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/nightmare-0.0.10.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-04-05&quot;,&quot;sha512sum&quot;:&quot;A2B04D481CC1E19470001745106C437D681CBCC60A9D68AE082C13CDF82CFEBBB0258A8DFCB3F1526C595221CB10F9FD7EC264850AE8D5B21D3F7C670993B2CC&quot;,&quot;version&quot;:&quot;0.0.11&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/nightmare-0.0.11.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;}]}, {&quot;projectUrl&quot;:&quot;https://discord.gg/ARcwsJr&quot;,&quot;provider&quot;:&quot;xKylee&quot;,&quot;name&quot;:&quot;Pile Indicators&quot;,&quot;description&quot;:&quot;Highlight and count how many npcs/players are stacked on each other&quot;,&quot;id&quot;:&quot;pileindicators-plugin&quot;,&quot;releases&quot;:[{&quot;date&quot;:&quot;2020-02-17&quot;,&quot;sha512sum&quot;:&quot;063288C2F1D645749A987793921C7FF35A6EB2110F01F46BF6EFF52953CA0781079A23FBBDABF4342F26645F91B8516716475A7155AE540F23EB8C0975ABCD5D&quot;,&quot;version&quot;:&quot;0.0.1&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/pileindicators-0.0.1.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-02-20&quot;,&quot;sha512sum&quot;:&quot;11BB2E7F96AF1E49087B2261BD9C9C882193BFB461A4E92893F5B3902CD6C03F747803E04CD80ABE3D33C545CADBA9D3E761A1CE70FE156B351A2E8CF3793B5F&quot;,&quot;version&quot;:&quot;0.0.2&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/pileindicators-0.0.2.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-02-21&quot;,&quot;sha512sum&quot;:&quot;2497DF4C4B978F68FEE4747CCD0A9503823B9DA11CA7AF48FC5C1683650E1E6A0D88A4AD6FB3742074E9D4B9C125D825A087933E86E776449945A254DE10DCC5&quot;,&quot;version&quot;:&quot;0.0.3&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/pileindicators-0.0.3.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-04-05&quot;,&quot;sha512sum&quot;:&quot;9548A98589F67FAD10AA4145C7665E978613D512722F2445CFBD16F88B35F80E84103AFAB09F83485291AFEB4002E271AE624C6309DBE1FEDC651DC0EAF7E80F&quot;,&quot;version&quot;:&quot;0.0.4&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/pileindicators-0.0.4.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;}]}, {&quot;projectUrl&quot;:&quot;https://discord.gg/ARcwsJr&quot;,&quot;provider&quot;:&quot;xKylee&quot;,&quot;name&quot;:&quot;Player Scouter&quot;,&quot;description&quot;:&quot;Scout players and output them to your discord channel!&quot;,&quot;id&quot;:&quot;playerscouter-plugin&quot;,&quot;releases&quot;:[{&quot;date&quot;:&quot;2020-02-17&quot;,&quot;sha512sum&quot;:&quot;417B31F7CB58B518E763F19EC64E6E9EB987063821B33EF471A334F8ACF5F0F15191C59AA05F870A515802094D6524DEFDE4048CC7040D4464861C8147F9507E&quot;,&quot;version&quot;:&quot;0.0.2&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/playerscouter-0.0.2.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-02-20&quot;,&quot;sha512sum&quot;:&quot;100FE46861DC94D8FEB2AF1D16DA0363BE5BAD6C86D66CDA60B0C1C60CA6B5A96B3BF9020B90E9EA924AB8729D72ABD4BB09FD255312EA7331E55D62CA06EE5B&quot;,&quot;version&quot;:&quot;0.0.3&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/playerscouter-0.0.3.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-03-15&quot;,&quot;sha512sum&quot;:&quot;57BCD5836C1DDE96F33ED2DB1289550E9938FD229FE674FA1D2670A1885DEB0CE175028DF39F1F3ABC7CA5341E4403C9209FAFFB74247A809BF1D05C518D572E&quot;,&quot;version&quot;:&quot;0.0.4&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/playerscouter-0.0.4.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-03-20&quot;,&quot;sha512sum&quot;:&quot;EB9AD68A4CF9FA2BFB29C8923D5D8B5D38337A9FEA46730D7792A7973A106D44FDE3316256C33427DD7FE44EC00271FB9C5DBF1FAC654B18975C788F7E3B1898&quot;,&quot;version&quot;:&quot;0.0.6&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/playerscouter-0.0.6.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-04-05&quot;,&quot;sha512sum&quot;:&quot;635C90B5964218AE8D5AD7DD759F9C4650FFD10B9AD9F720D7227FA72809A31E5BDA7D8CCD2CFACC432E427F30B1098A42771C1E3231768E1674B2CA19A4C7B1&quot;,&quot;version&quot;:&quot;0.0.7&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/playerscouter-0.0.7.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;}]}, {&quot;projectUrl&quot;:&quot;https://discord.gg/ARcwsJr&quot;,&quot;provider&quot;:&quot;xKylee&quot;,&quot;name&quot;:&quot;Pray Against Player&quot;,&quot;description&quot;:&quot;Use plugin in PvP situations for best results&quot;,&quot;id&quot;:&quot;prayagainstplayer-plugin&quot;,&quot;releases&quot;:[{&quot;date&quot;:&quot;2020-02-17&quot;,&quot;sha512sum&quot;:&quot;473FA712137E7276383BB5617DBB8F6D609B792A27205820855680066B75D1CAD77E031A8F5BEB607D7CFC0ECC97CC616C0496CE669DFDB41AFB8BC841C6F9DA&quot;,&quot;version&quot;:&quot;0.0.3&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/prayagainstplayer-0.0.3.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-02-20&quot;,&quot;sha512sum&quot;:&quot;50B2B168E19B8B894B9016199AA897D00CA2FF9C391386D8789A9D0CDCD111D6F64A067320DB9613ED1D90170734343900A841C8A1912132C9BCFDF15B9C8FEF&quot;,&quot;version&quot;:&quot;0.0.4&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/prayagainstplayer-0.0.4.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-03-15&quot;,&quot;sha512sum&quot;:&quot;E860C88EE6C2F17218C4383081E25752E4BCF8E62057C0B411A36A177CF7A578ACAAA033ED741C4F302D87AD229D0872C764E785B8409D86BFB45DD31377C1BF&quot;,&quot;version&quot;:&quot;0.0.5&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/prayagainstplayer-0.0.5.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-04-05&quot;,&quot;sha512sum&quot;:&quot;2F9F3FB8B67C173DFC66BCF6039036F2424E530F5105A6EE739529BB1E9165377970E4B61C861D58BD8B771CE9FAADC348BEE6510FD4A11C67402B9AAD5610F7&quot;,&quot;version&quot;:&quot;0.0.6&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/prayagainstplayer-0.0.6.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;}]}, {&quot;projectUrl&quot;:&quot;https://discord.gg/ARcwsJr&quot;,&quot;provider&quot;:&quot;xKylee&quot;,&quot;name&quot;:&quot;PvP Tools&quot;,&quot;description&quot;:&quot;Enable the PvP Tools panel&quot;,&quot;id&quot;:&quot;pvptools-plugin&quot;,&quot;releases&quot;:[{&quot;date&quot;:&quot;2020-02-17&quot;,&quot;sha512sum&quot;:&quot;2C4407E9D7BA430C8333C0F88E69B05E83B884AD123C5FC3E43E2DE8F0ED97DCC1B7431FCEA39004A1FDB6F529EEF2DC8EF887BFE6D1B8276ACEA4466DE8EF04&quot;,&quot;version&quot;:&quot;0.0.2&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/pvptools-0.0.2.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-02-20&quot;,&quot;sha512sum&quot;:&quot;67797DFF900D0A9BEAC5028127C4328838D80EC1542CF4296CA4A7B342CE4107E416A8B949F3B50E9DE5AB9AF2726F2227ABB8902961EE1C3C7516A1E5593170&quot;,&quot;version&quot;:&quot;0.0.3&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/pvptools-0.0.3.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-04-05&quot;,&quot;sha512sum&quot;:&quot;DE9469B0FD6FE72287E70264A2ECEDF56AFCF492440ED4F5A5DFC82D5831D5F90C0B211764CC21228F84027F1ADCCEDA7D84B7A54777C5712715D0F601DBFEE6&quot;,&quot;version&quot;:&quot;0.0.4&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/pvptools-0.0.4.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;}]}, {&quot;projectUrl&quot;:&quot;https://discord.gg/ARcwsJr&quot;,&quot;provider&quot;:&quot;xKylee&quot;,&quot;name&quot;:&quot;Reorder Prayers&quot;,&quot;description&quot;:&quot;Reorder the prayers displayed on the Prayer panel&quot;,&quot;id&quot;:&quot;reorderprayers-plugin&quot;,&quot;releases&quot;:[{&quot;date&quot;:&quot;2020-02-17&quot;,&quot;sha512sum&quot;:&quot;05E23B99665E472B100DB1DFFF4D7ABFB73811DF9582B0226B2B478E6B12027483AA42D7587176818217AADE709270062B7E261E5F3332BB1120544A0C2775CB&quot;,&quot;version&quot;:&quot;0.0.2&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/reorderprayers-0.0.2.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-02-20&quot;,&quot;sha512sum&quot;:&quot;FFABA9F1559D9F9F408B84AB467D208BF789AD412B75EA69AC3BE898FCD119DC50755482AAE5EC9894F5EECD02928A8238FDF12C2C2528D03783750D0247A022&quot;,&quot;version&quot;:&quot;0.0.3&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/reorderprayers-0.0.3.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-04-05&quot;,&quot;sha512sum&quot;:&quot;82972A0EF7D366766E993330678F9110D6BFD546637326D4B8524441F13A27E0B192714F3D694BD25623779AC7D1208E6BA53AA6722D78EC25F7056917B0B195&quot;,&quot;version&quot;:&quot;0.0.4&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/reorderprayers-0.0.4.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;}]}, {&quot;projectUrl&quot;:&quot;https://discord.gg/ARcwsJr&quot;,&quot;provider&quot;:&quot;xKylee&quot;,&quot;name&quot;:&quot;Runedoku&quot;,&quot;description&quot;:&quot;Show solutions for current Runedoku puzzle&quot;,&quot;id&quot;:&quot;runedoku-plugin&quot;,&quot;releases&quot;:[{&quot;date&quot;:&quot;2020-02-17&quot;,&quot;sha512sum&quot;:&quot;03C867C6A559DE1FF87F3E4CDB15AC653B899B0F7C075F47467915D78EDD8E62CA8907117F9A1D7E578116F11AFBE9D24E42EF8A9388E2B4B864AA81A53BFBDC&quot;,&quot;version&quot;:&quot;0.0.2&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/runedoku-0.0.2.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-02-20&quot;,&quot;sha512sum&quot;:&quot;FEE971F8CF7284F37BA0CD1E24BF03B311AF20AF0F2BC4F549152D7A5C62047E255D34102AAFDECB6BF89651C3F7CE2C9F09D0255B08EEC1ADB926596EC5CE31&quot;,&quot;version&quot;:&quot;0.0.3&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/runedoku-0.0.3.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-04-05&quot;,&quot;sha512sum&quot;:&quot;E2E0974B047D28A21CCB81D19C4F7CC4DBF7B82F493BA602EC4E8FB6E8BAB983B944E2C89208FD916579C7E67C4DED3F7C88B2AEF7837717409E20BCDC81850D&quot;,&quot;version&quot;:&quot;0.0.4&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/runedoku-0.0.4.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;}]}, {&quot;projectUrl&quot;:&quot;https://discord.gg/ARcwsJr&quot;,&quot;provider&quot;:&quot;xKylee&quot;,&quot;name&quot;:&quot;Spec Bar&quot;,&quot;description&quot;:&quot;Adds a spec bar to every weapon&quot;,&quot;id&quot;:&quot;specbar-plugin&quot;,&quot;releases&quot;:[{&quot;date&quot;:&quot;2020-02-17&quot;,&quot;sha512sum&quot;:&quot;9EBD01B4A922BB1577CA49C65E60E2589B78FDDDDFC6CC89DB89273668E617D464E19D9A146975E4F11ED622F96FF3249780365D1E214CD25224AEB2632D7260&quot;,&quot;version&quot;:&quot;0.0.2&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/specbar-0.0.2.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-02-20&quot;,&quot;sha512sum&quot;:&quot;44D8E316867A71B94EC8BDBB9F3B32020DDAF97ADB9A1070C7F6D6DBE26AC1296A10012CDE0DD6AFCBB49BA7F4402E9B7459E22BF7F3F0A8DAD574F0F32B75E0&quot;,&quot;version&quot;:&quot;0.0.3&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/specbar-0.0.3.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-04-05&quot;,&quot;sha512sum&quot;:&quot;4B934B8FF0C17D1D0C8252FCB375D42C9AA54B24C5FD25343F8F73BB2CAEBCF23E91A1DFEA89006E7BDD730408E27B3994DB54DB1CD8BA23A76723934CEB172F&quot;,&quot;version&quot;:&quot;0.0.4&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/specbar-0.0.4.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;}]}, {&quot;projectUrl&quot;:&quot;https://discord.gg/ARcwsJr&quot;,&quot;provider&quot;:&quot;xKylee&quot;,&quot;name&quot;:&quot;Spellbook&quot;,&quot;description&quot;:&quot;Modifications to the spellbook&quot;,&quot;id&quot;:&quot;spellbook-plugin&quot;,&quot;releases&quot;:[{&quot;date&quot;:&quot;2020-02-17&quot;,&quot;sha512sum&quot;:&quot;E437EC27AE7A1905C8E810BA4673D7DE77DC313DCCCA0AF13E4D20919FB41E9D886F71E07AC9900B14FE9920D161EF1C9D6D1BDCD59318FC6A54B0BA0A9A1748&quot;,&quot;version&quot;:&quot;0.0.2&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/spellbook-0.0.2.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-02-20&quot;,&quot;sha512sum&quot;:&quot;EBA68EB8065D8FFB90A2F8A80979369F5E3C58F37A7826AF0A4D51A13627702EE10E6B125B4D0721CBB2E638454B416F6DDF8C5FA81B4627D5F503D338CC2E55&quot;,&quot;version&quot;:&quot;0.0.3&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/spellbook-0.0.3.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-04-05&quot;,&quot;sha512sum&quot;:&quot;645A0017C1EFF686664C1B8B31D3767814A9C72F4B2A96B7D5C81AD2E9F3321E7038B7F1F31526C4D2C16CB099E9C8D8983C8047C60B17B49CD771A21B3F7DAD&quot;,&quot;version&quot;:&quot;0.0.4&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/spellbook-0.0.4.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;}]}, {&quot;projectUrl&quot;:&quot;https://discord.gg/ARcwsJr&quot;,&quot;provider&quot;:&quot;xKylee&quot;,&quot;name&quot;:&quot;Stronghold&quot;,&quot;description&quot;:&quot;Highlights the correct answer to Stronghold of Security questions.&quot;,&quot;id&quot;:&quot;stronghold-plugin&quot;,&quot;releases&quot;:[{&quot;date&quot;:&quot;2020-02-17&quot;,&quot;sha512sum&quot;:&quot;25F6C43D4D512C15A922783B851A727645A038BD13B6B331502666ED4E42C83F3F27115A911FF6DBF25FDCDD4CE0723535B1BEFC10B9DEB42E3F193B7398BD9A&quot;,&quot;version&quot;:&quot;0.0.1&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/strongholdofsecurity-0.0.1.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-02-20&quot;,&quot;sha512sum&quot;:&quot;EB03812D3628E58E130DB4F9429CFF70EF2F5A50E4B47F0C64C8C2845F078185CA29AB025C91F15197B5DB66E185B3322CB7D24353B112C258BE49E4A2788B08&quot;,&quot;version&quot;:&quot;0.0.2&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/strongholdofsecurity-0.0.2.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-02-21&quot;,&quot;sha512sum&quot;:&quot;0E34E6F42F1D15E115CACBD03853C0BB83CE259FDE52547D519FB13D69C68247A8D3D592522DA4180A90D396433BA1DADE9DB2890A701E91AB4435932B5028C3&quot;,&quot;version&quot;:&quot;0.0.3&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/strongholdofsecurity-0.0.3.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-04-05&quot;,&quot;sha512sum&quot;:&quot;C84DC8498205B48EEDFFA05FB4A26A28D9AEDE952276D766C51389DB67D413C11E230C5FD78C8139083582449314DFFA2C60A94E42E21E1B9218AC33DAD1321B&quot;,&quot;version&quot;:&quot;0.0.4&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/strongholdofsecurity-0.0.4.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;}]}, {&quot;projectUrl&quot;:&quot;https://discord.gg/ARcwsJr&quot;,&quot;provider&quot;:&quot;xKylee&quot;,&quot;name&quot;:&quot;Tarn&#39;s lair&quot;,&quot;description&quot;:&quot;Mark tiles and clickboxes to help traverse the maze&quot;,&quot;id&quot;:&quot;tarnslair-plugin&quot;,&quot;releases&quot;:[{&quot;date&quot;:&quot;2020-02-17&quot;,&quot;sha512sum&quot;:&quot;7DA0C16F6C903F675EC96AE87D75E68BA927016FC33298CA3E0626CDA0E6E1CD99A718380D09DEB749F276802EBB55C8020EF41A1B7359AE85002A28C2CFF2F6&quot;,&quot;version&quot;:&quot;0.0.2&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/tarnslair-0.0.2.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-02-20&quot;,&quot;sha512sum&quot;:&quot;B014063ED3681CF827B572DADB939E5FF8CED902EDF4D1B7BE74EFB17763EBB5C8A95A421B3D1F11C054D0D30A7413EF151AB9167326B1B1A9F2AD7F6155821D&quot;,&quot;version&quot;:&quot;0.0.3&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/tarnslair-0.0.3.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-02-21&quot;,&quot;sha512sum&quot;:&quot;C763F5780D111DBFDDC9CB55B1CB4BC62D0688FF9EA7349FC27D06EA21B8023655892B3988E58458F71517EA20FBDF7114359893C8ADDDE16F280BC6109A14A2&quot;,&quot;version&quot;:&quot;0.0.4&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/tarnslair-0.0.4.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-04-05&quot;,&quot;sha512sum&quot;:&quot;CE951CB63496E56774E91FEEF89D39D4AA73BE47AA5C3410434C6ED564493E385C66CEC938608E8E0BE576197CF6F51B39F367972C58286F27717C91FC773D6B&quot;,&quot;version&quot;:&quot;0.0.5&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/tarnslair-0.0.5.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;}]}, {&quot;projectUrl&quot;:&quot;https://discord.gg/ARcwsJr&quot;,&quot;provider&quot;:&quot;xKylee&quot;,&quot;name&quot;:&quot;Temple Trekking&quot;,&quot;description&quot;:&quot;Helpers for the Temple Trek minigame&quot;,&quot;id&quot;:&quot;templetrekking-plugin&quot;,&quot;releases&quot;:[{&quot;date&quot;:&quot;2020-02-17&quot;,&quot;sha512sum&quot;:&quot;E2ACA747B351E10BB54A0909E2C6A16160A1987F6496CBD8BAE69EA0F80E04FE8DA29041340040D78840839C49C5495D361A9DF464832C4249DBD18DCCFA1408&quot;,&quot;version&quot;:&quot;0.0.1&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/templetrekking-0.0.1.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-02-20&quot;,&quot;sha512sum&quot;:&quot;32FF5284458669668C253B97BDD98B15C86E98FFA4B9932691BC0A019FB1F4DE37A8FE1ECB635BFD94181BB3944BC0666FB6BB5E28E95E5327683E53AC94D1CB&quot;,&quot;version&quot;:&quot;0.0.2&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/templetrekking-0.0.2.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-04-05&quot;,&quot;sha512sum&quot;:&quot;E8A03C906082F4EE08AFC0468D65C6A6573BE57D9A42FDB659730520178A3F968B97B5B28F7E772E3C2625B4FC8025DD7B0B1070BBA4304E9D1B2A3C07C80133&quot;,&quot;version&quot;:&quot;0.0.3&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/templetrekking-0.0.3.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;}]}, {&quot;projectUrl&quot;:&quot;https://discord.gg/ARcwsJr&quot;,&quot;provider&quot;:&quot;xKylee&quot;,&quot;name&quot;:&quot;Theatre Of Blood&quot;,&quot;description&quot;:&quot;All-in-one plugin for Theatre of Blood&quot;,&quot;id&quot;:&quot;theatreofblood-plugin&quot;,&quot;releases&quot;:[{&quot;date&quot;:&quot;2020-02-17&quot;,&quot;sha512sum&quot;:&quot;0DFC88163E92FBE253120DECB076ED6CD35EA1B7ED71406225B3EFF71E50E013497CD8F3B791C629FB980CABD489467B2D1DC2BBDF39F68AA1E5DFB0C5CD68EA&quot;,&quot;version&quot;:&quot;0.0.2&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/theatre-0.0.2.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-02-20&quot;,&quot;sha512sum&quot;:&quot;EB511F065639A025ED131E21D59A3219F6FEC0D4690C764BCD6E97B9B6673597B1A9A2E59CBA5057D03EEEA5C4F5456DCE8E2FCB7473837AD5678BB7DAA89EF4&quot;,&quot;version&quot;:&quot;0.0.3&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/theatre-0.0.3.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-03-11&quot;,&quot;sha512sum&quot;:&quot;D6CF2FC84D82198A341500BB8C14169A1854AF9E4DD4B2EA6B8EFD17A29DD2906E6AC89D82CB0870B6017B30EA67D9E77325B3B74D98A75DC6D728DF67F2FC35&quot;,&quot;version&quot;:&quot;0.0.4&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/theatre-0.0.4.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-04-05&quot;,&quot;sha512sum&quot;:&quot;E2A752FFCCFF80A5D4ACF8E613571CE7431B158A43E32B565CB92DF07406B0C28EF2F455750E9C65DC6A8070B97C73413439D3B5173BE93A9C403F6987ACD833&quot;,&quot;version&quot;:&quot;0.0.5&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/theatre-0.0.5.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;}]}, {&quot;projectUrl&quot;:&quot;https://discord.gg/ARcwsJr&quot;,&quot;provider&quot;:&quot;xKylee&quot;,&quot;name&quot;:&quot;Boss Tick Timers&quot;,&quot;description&quot;:&quot;Tick timers for bosses&quot;,&quot;id&quot;:&quot;bossticktimers-plugin&quot;,&quot;releases&quot;:[{&quot;date&quot;:&quot;2020-02-17&quot;,&quot;sha512sum&quot;:&quot;F7DD5A829C40A3EFFFAE8D3CBA5E9702328DC2D087B0B0F565385886C1B6E71818644827BAF127D83096763D97514F99D2D137057BC18347770ACB5667AF19E8&quot;,&quot;version&quot;:&quot;0.0.2&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/ticktimers-0.0.2.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-02-20&quot;,&quot;sha512sum&quot;:&quot;6DB4F1BBD792A365946CEA3D282B044581A7732BC82CF3AC79C1F8CF9DF2B7BF438EAB8463287D7878C346296C335E7A60DE5C0968C680E3A7C4C123E9EC5362&quot;,&quot;version&quot;:&quot;0.0.3&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/ticktimers-0.0.3.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-02-21&quot;,&quot;sha512sum&quot;:&quot;245554E26CD5D594229022FEF086D521FA730959370462701EACC19C1ECD89F02466B56FF19F1D9FECB00CF0AF875D1DF85A97F05140FA354628F930BDA4824C&quot;,&quot;version&quot;:&quot;0.0.4&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/ticktimers-0.0.4.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-04-05&quot;,&quot;sha512sum&quot;:&quot;EC958A537DF7E7FC430183B1DC62B1C0944140668054D685DDDF39EF9961E27BF2488E4A641A37963866B38AFD3DD669844F52DFE7F3D4D5ACA404F380C19F09&quot;,&quot;version&quot;:&quot;0.0.5&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/ticktimers-0.0.5.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;}]}, {&quot;projectUrl&quot;:&quot;https://discord.gg/ARcwsJr&quot;,&quot;provider&quot;:&quot;xKylee&quot;,&quot;name&quot;:&quot;ToB Damage Counter&quot;,&quot;description&quot;:&quot;Gives you an estimation damage on a boss and taken after the fight is done the damage will be posted in the chat&quot;,&quot;id&quot;:&quot;tobdamagecounter-plugin&quot;,&quot;releases&quot;:[{&quot;date&quot;:&quot;2020-02-17&quot;,&quot;sha512sum&quot;:&quot;CFEC63272E464A6AAEAAA06175545E87CFFB798C31DBCB2A5FDEEBD802893238C5A9595CB33AD505FBA6FD09539386746C2D9BCCC3137EA11098F537898919DA&quot;,&quot;version&quot;:&quot;0.0.2&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/tobdamagecount-0.0.2.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-02-20&quot;,&quot;sha512sum&quot;:&quot;30DDF608D4E9D38250732B2064B1E418F566C5B3BB7A6622E8CF9458F79C10B575C5F64D835DAA6B259D7BDECDF9C5301F358EB115707457035043EA293E6D34&quot;,&quot;version&quot;:&quot;0.0.3&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/tobdamagecount-0.0.3.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-04-05&quot;,&quot;sha512sum&quot;:&quot;7B069119B5AE724C4055953E9C4FC094BF3E21C54F7B00BC2C946AD11F4855BC21B08A219E26BE8E3EA47374CFF31BFEC1544C6A68CAA1C06D6E46AB96B80D07&quot;,&quot;version&quot;:&quot;0.0.4&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/tobdamagecount-0.0.4.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;}]}, {&quot;projectUrl&quot;:&quot;https://discord.gg/ARcwsJr&quot;,&quot;provider&quot;:&quot;xKylee&quot;,&quot;name&quot;:&quot;Vet&#39;ion&quot;,&quot;description&quot;:&quot;Tracks Vet&#39;ion&#39;s special attacks&quot;,&quot;id&quot;:&quot;vetion-plugin&quot;,&quot;releases&quot;:[{&quot;date&quot;:&quot;2020-02-17&quot;,&quot;sha512sum&quot;:&quot;1D83CB7475B178AEFAC302FACE2ECF29A543CE775EB0D3D293DB9D569B9BA1846B8CA18FD445035A56C6729C2BD3BC3EB465A5E24BB3761C9EED2158E649D0CC&quot;,&quot;version&quot;:&quot;0.0.2&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/vetion-0.0.2.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-02-20&quot;,&quot;sha512sum&quot;:&quot;CC3B411AA0E0B010AB93BF87DB5A12F977E095DEFF7B07958FCFF839B70E7AE6A991CF77ED7B8885E1258AAD8C66A08415866FFA926D25C80543F474E06B9CBF&quot;,&quot;version&quot;:&quot;0.0.3&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/vetion-0.0.3.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-02-21&quot;,&quot;sha512sum&quot;:&quot;162705E9A775CDF68756CEF1403A0E1425AC55F2BB6A41CAE89DBFBABFA18AF38B669D069E984E729D49405B93E66C1274C7BDC31273FCB0B003BBD357C56864&quot;,&quot;version&quot;:&quot;0.0.4&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/vetion-0.0.4.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-04-05&quot;,&quot;sha512sum&quot;:&quot;75B67541A101107383E31A77CFE710709C0376F84CCEF1F1C012A173046A7ADE912CF0F89A6EF50FE929E9644D58C4171453F0C529502968A1CB40E99348D597&quot;,&quot;version&quot;:&quot;0.0.5&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/vetion-0.0.5.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;}]}, {&quot;projectUrl&quot;:&quot;https://discord.gg/ARcwsJr&quot;,&quot;provider&quot;:&quot;xKylee&quot;,&quot;name&quot;:&quot;Vorkath&quot;,&quot;description&quot;:&quot;Count vorkath attacks, indicate next phase, wooxwalk timer, indicate path through acid&quot;,&quot;id&quot;:&quot;vorkath-plugin&quot;,&quot;releases&quot;:[{&quot;date&quot;:&quot;2020-02-17&quot;,&quot;sha512sum&quot;:&quot;9D3B74E93E67CEE2C28F54198BDD0981EE34970FE23BF950D7B959A650C702B870480685A3C31686250EDC0AB7BB32A484B88C2143B7A73B025E141BCF1B139A&quot;,&quot;version&quot;:&quot;0.0.2&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/vorkath-0.0.2.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-02-20&quot;,&quot;sha512sum&quot;:&quot;BB27FA0849A00ECDA97CEAD73A204DF179D32DBCDB9B97E1948F611E046787252A060CB23C711DFF82544FF303123BE3BEEF14AB12597FAE635FA2BF33DDFB8E&quot;,&quot;version&quot;:&quot;0.0.3&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/vorkath-0.0.3.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-02-21&quot;,&quot;sha512sum&quot;:&quot;FF002667C268E3B8A2E4D2988DE054E2ED36D3AD2C6A1E3D0A34604E3F367C99745D3012AA150D19BFBFF71B91C8925413B823ACA86CDBB3AC70E98930206F62&quot;,&quot;version&quot;:&quot;0.0.4&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/vorkath-0.0.4.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-04-05&quot;,&quot;sha512sum&quot;:&quot;DE39B9C5D8BC0E67EFF5BDCC3C303079EC41268A50912FF0FD2FB18715FB58B37C8F530CEC31D68BD2D1FD5A51B4D4740D97D9080687362A5752F49E60B11883&quot;,&quot;version&quot;:&quot;0.0.5&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/vorkath-0.0.5.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;}]}, {&quot;projectUrl&quot;:&quot;https://discord.gg/ARcwsJr&quot;,&quot;provider&quot;:&quot;xKylee&quot;,&quot;name&quot;:&quot;Whale Watchers&quot;,&quot;description&quot;:&quot;A Plugin to save help whales in the wild&quot;,&quot;id&quot;:&quot;whalewatchers-plugin&quot;,&quot;releases&quot;:[{&quot;date&quot;:&quot;2020-02-17&quot;,&quot;sha512sum&quot;:&quot;6E6476EFDF9BF1544DF257AE28082FF9CDCBC53A221275AC05BEF5855A6CEA42014F3360037144CCCB65B30F2F8C7995375AAFEDF30FF63BCF658B031DE96357&quot;,&quot;version&quot;:&quot;0.0.2&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/whalewatchers-0.0.2.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-02-20&quot;,&quot;sha512sum&quot;:&quot;725355F3B45149018707CDCC5B18918ADF43D49BA0059C33379ABCDCB2C93AE11DE93D8F05258A72FCD67190CB69E00FAB1FAD1A6827C12BA35BB91C57D0F3BB&quot;,&quot;version&quot;:&quot;0.0.3&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/whalewatchers-0.0.3.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-02-21&quot;,&quot;sha512sum&quot;:&quot;0378DD973ABB397D82119F096F3C835C48DF6E449D696966AAEE754D005C0127183FC932D1E4251BF887D27734CF06B66ECE4931101A58A0EBF47DD043DDFFE8&quot;,&quot;version&quot;:&quot;0.0.4&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/whalewatchers-0.0.4.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-03-28&quot;,&quot;sha512sum&quot;:&quot;3874884D41F57EE11ABCD0EAA2A7F45956204685859F620C8C05299F52EF34E30675301C973A57B1BE368809FB02F833277869C0903D74A6AD2B804FBB569E8D&quot;,&quot;version&quot;:&quot;0.0.8&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/whalewatchers-0.0.8.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-04-05&quot;,&quot;sha512sum&quot;:&quot;1C97E23705345BD9145526CF18F6EF2E4E1EFCE02A27CDA368597ED2EBC1542AA3986F665C239DB470D175C78C70C6AA5BDA5E3D265FCE2144EE5ED0760429F0&quot;,&quot;version&quot;:&quot;0.0.9&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/whalewatchers-0.0.9.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-04-13&quot;,&quot;sha512sum&quot;:&quot;1B68406864D6964875C638CA9FBF4FE28B34DFF44B05C45432D8219FAC12CE75BA1F64B616C6AC3A906FEA9C8C6E759ACCAB8509BD05B1328C63C48A3E0B7CCB&quot;,&quot;version&quot;:&quot;0.0.10&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/whalewatchers-0.0.10.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;}]}, {&quot;projectUrl&quot;:&quot;https://discord.gg/ARcwsJr&quot;,&quot;provider&quot;:&quot;xKylee&quot;,&quot;name&quot;:&quot;Wilderness Locations&quot;,&quot;description&quot;:&quot;Indicates the players current location in the wild&quot;,&quot;id&quot;:&quot;wildernesslocations-plugin&quot;,&quot;releases&quot;:[{&quot;date&quot;:&quot;2020-02-17&quot;,&quot;sha512sum&quot;:&quot;AFC49ABAE563D5284B4E214F4B7E5FF69695FFB835FEC1865761BF22F2A790ACABBF174D0985A1E9170F44EA0D9C07CF87EE1A879665285C07554508EF7713A8&quot;,&quot;version&quot;:&quot;0.0.2&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/wildernesslocations-0.0.2.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-02-20&quot;,&quot;sha512sum&quot;:&quot;43C76ED66FA75B0FE59FCD3EAED08548E37EA203A310AB4546B48AD984A6EAE30179B63858914437AF8E602383BB873F0E57221D379941A9834138FBAD86C88F&quot;,&quot;version&quot;:&quot;0.0.3&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/wildernesslocations-0.0.3.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-02-21&quot;,&quot;sha512sum&quot;:&quot;B89508B893FCCE042F3AC95AF02F3A5F88E547C717C07F24CC112BFF4AD4862AEA75F3A11FEAD2B496AA7EE54A76BB96563A03754D2CE2963D46FAA857BC3752&quot;,&quot;version&quot;:&quot;0.0.4&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/wildernesslocations-0.0.4.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-04-05&quot;,&quot;sha512sum&quot;:&quot;A4A20976C3C80D6B9F5D596A691246722C738D471974E5503FAF1A73A4ACD3E5F3E649ADABD6F50767A2659289DFB28BCF4311FBABBFD2B738648B76CB39267F&quot;,&quot;version&quot;:&quot;0.0.5&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/wildernesslocations-0.0.5.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;}]}, {&quot;projectUrl&quot;:&quot;https://discord.gg/ARcwsJr&quot;,&quot;provider&quot;:&quot;xKylee&quot;,&quot;name&quot;:&quot;Zulrah&quot;,&quot;description&quot;:&quot;Shows tiles on where to stand during the phases and what prayer to use&quot;,&quot;id&quot;:&quot;zulrah-plugin&quot;,&quot;releases&quot;:[{&quot;date&quot;:&quot;2020-02-17&quot;,&quot;sha512sum&quot;:&quot;03831D8A1DE56E3B926EFCA422AFE52ABAD7F420E4C7EFD2C492CF1DA7A7B3E886D29E2BC04BFE4D7374CF02D510886B6F3C37CC70F26ACC4BAB05AE283D9A48&quot;,&quot;version&quot;:&quot;0.0.2&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/zulrah-0.0.2.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-02-20&quot;,&quot;sha512sum&quot;:&quot;D90494098A5AF43189778C7A7A4975CD739BB8106EBAE7381BCA8C05B1ED985B141CBD510D62AD489260D22953CD85F5B2EC894D8CC98D384A1A800978D59CBA&quot;,&quot;version&quot;:&quot;0.0.3&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/zulrah-0.0.3.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-02-21&quot;,&quot;sha512sum&quot;:&quot;8B6ECA7F46679E353409C2664C39167DFB58C0755213DED6F59A91145878E4346E8AF3EFFE36FB48F4673377D6E3D4BA9D6E27CC59DC7AF9906D9D7F7AB53C60&quot;,&quot;version&quot;:&quot;0.0.4&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/zulrah-0.0.4.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;},{&quot;date&quot;:&quot;2020-04-05&quot;,&quot;sha512sum&quot;:&quot;E3EB56B04B3E02DD39F73F0D1E32EF3619E0872C934B0217D248D0D565FB5677068DF72B16308C6797D6A13A3AF007DC65C7ED32A0629BBD20378C9734106A00&quot;,&quot;version&quot;:&quot;0.0.5&quot;,&quot;url&quot;:&quot;https://github.com/xKylee/plugins-release/blob/master/release/zulrah-0.0.5.jar?raw=true&quot;,&quot;requires&quot;:&quot;0.0.1&quot;}]}]</td>
+      </tr>
+</table>
+
+  <details class="details-reset details-overlay BlobToolbar position-absolute js-file-line-actions dropdown d-none" aria-hidden="true">
+    <summary class="btn-octicon ml-0 px-2 p-0 bg-white border border-gray-dark rounded-1" aria-label="Inline file action toolbar">
+      <svg class="octicon octicon-kebab-horizontal" viewBox="0 0 13 16" version="1.1" width="13" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.5 9a1.5 1.5 0 100-3 1.5 1.5 0 000 3zm5 0a1.5 1.5 0 100-3 1.5 1.5 0 000 3zM13 7.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z"></path></svg>
+    </summary>
+    <details-menu>
+      <ul class="BlobToolbar-dropdown dropdown-menu dropdown-menu-se mt-2" style="width:185px">
+        <li>
+          <clipboard-copy role="menuitem" class="dropdown-item" id="js-copy-lines" style="cursor:pointer;">
+            Copy lines
+          </clipboard-copy>
+        </li>
+        <li>
+          <clipboard-copy role="menuitem" class="dropdown-item" id="js-copy-permalink" style="cursor:pointer;">
+            Copy permalink
+          </clipboard-copy>
+        </li>
+        <li><a class="dropdown-item js-update-url-with-hash" id="js-view-git-blame" role="menuitem" href="/xKylee/plugins-release/blame/2f1710c91806d97eacdaf1ecd2c70be95ac17ab8/plugins.json">View git blame</a></li>
+          <li><a class="dropdown-item" id="js-new-issue" role="menuitem" href="/xKylee/plugins-release/issues/new">Reference in new issue</a></li>
+      </ul>
+    </details-menu>
+  </details>
+
+  </div>
+
+    </div>
+
+  
+
+  <details class="details-reset details-overlay details-overlay-dark">
+    <summary data-hotkey="l" aria-label="Jump to line"></summary>
+    <details-dialog class="Box Box--overlay d-flex flex-column anim-fade-in fast linejump" aria-label="Jump to line">
+      <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-jump-to-line-form Box-body d-flex" action="" accept-charset="UTF-8" method="get">
+        <input class="form-control flex-auto mr-3 linejump-input js-jump-to-line-field" type="text" placeholder="Jump to line&hellip;" aria-label="Jump to line" autofocus>
+        <button type="submit" class="btn" data-close-dialog>Go</button>
+</form>    </details-dialog>
+  </details>
+
+
+
+  </div>
+</div>
+
+    </main>
+  </div>
+  
+
+  </div>
+
+        
+<div class="footer container-lg width-full p-responsive" role="contentinfo">
+  <div class="position-relative d-flex flex-row-reverse flex-lg-row flex-wrap flex-lg-nowrap flex-justify-center flex-lg-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
+    <ul class="list-style-none d-flex flex-wrap col-12 col-lg-5 flex-justify-center flex-lg-justify-between mb-2 mb-lg-0">
+      <li class="mr-3 mr-lg-0">&copy; 2020 GitHub, Inc.</li>
+        <li class="mr-3 mr-lg-0"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
+        <li class="mr-3 mr-lg-0"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
+        <li class="mr-3 mr-lg-0"><a data-ga-click="Footer, go to security, text:security" href="https://github.com/security">Security</a></li>
+        <li class="mr-3 mr-lg-0"><a href="https://githubstatus.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+        <li><a data-ga-click="Footer, go to help, text:help" href="https://help.github.com">Help</a></li>
+
+    </ul>
+
+    <a aria-label="Homepage" title="GitHub" class="footer-octicon d-none d-lg-block mx-lg-4" href="https://github.com">
+      <svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>
+</a>
+   <ul class="list-style-none d-flex flex-wrap col-12 col-lg-5 flex-justify-center flex-lg-justify-between mb-2 mb-lg-0">
+        <li class="mr-3 mr-lg-0"><a data-ga-click="Footer, go to contact, text:contact" href="https://github.com/contact">Contact GitHub</a></li>
+        <li class="mr-3 mr-lg-0"><a href="https://github.com/pricing" data-ga-click="Footer, go to Pricing, text:Pricing">Pricing</a></li>
+      <li class="mr-3 mr-lg-0"><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li class="mr-3 mr-lg-0"><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
+        <li class="mr-3 mr-lg-0"><a href="https://github.blog" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a data-ga-click="Footer, go to about, text:about" href="https://github.com/about">About</a></li>
+    </ul>
+  </div>
+  <div class="d-flex flex-justify-center pb-6">
+    <span class="f6 text-gray-light"></span>
+  </div>
+</div>
+
+
+
+  <div id="ajax-error-message" class="ajax-error-message flash flash-error">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 000 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 00.01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"></path></svg>
+    <button type="button" class="flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"></path></svg>
+    </button>
+    You can’t perform that action at this time.
+  </div>
+
+
+    <script crossorigin="anonymous" async="async" integrity="sha512-WcQmT2vhcClFVOaaAJV/M+HqsJ2Gq/myvl6F3gCVBxykazXTs+i5fvxncSXwyG1CSfcrqmLFw/R/bmFYzprX2A==" type="application/javascript" id="js-conditional-compat" data-src="https://github.githubassets.com/assets/compat-bootstrap-59c4264f.js"></script>
+    <script crossorigin="anonymous" integrity="sha512-GJ+rI3xS8ODYKKEFc+HfawMZf5+hyokJaDIrfJyxTm69Gaxw/2nUP8ZYS7hoLGgn+6ZO9augKURQ+xj+yYykUg==" type="application/javascript" src="https://github.githubassets.com/assets/environment-bootstrap-189fab23.js"></script>
+      <script crossorigin="anonymous" async="async" integrity="sha512-JfA9c00QqdFAVbQaARMl2BJ+QwABPJ247GKHsBbdm7xq2P00Z6cmwPG7cFFXV0SVHPlKz8EqPiJeZDOZZTRFww==" type="application/javascript" src="https://github.githubassets.com/assets/vendor-25f03d73.js"></script>
+      <script crossorigin="anonymous" async="async" integrity="sha512-eWd2P+dR32x2wrP6wRHabQGmKVm9UQkNvyrnD8Kh/HavXqs3y0vULsz5exwjQOygebBXfSTrbaKHp0CA081JqQ==" type="application/javascript" src="https://github.githubassets.com/assets/frameworks-7967763f.js"></script>
+    
+    <script crossorigin="anonymous" async="async" integrity="sha512-qNck4uBUujM3QjLSLkLWihUtC1bnWx7Mh9f0vyUes/cuLqo0ItSi/0RrA4qe/eh/tHBdatFIHvfvbrvKDr2I8g==" type="application/javascript" src="https://github.githubassets.com/assets/github-bootstrap-a8d724e2.js"></script>
+    
+    
+    
+  <div class="js-stale-session-flash flash flash-warn flash-banner" hidden
+    >
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 000 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 00.01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"></path></svg>
+    <span class="js-stale-session-flash-signed-in" hidden>You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
+    <span class="js-stale-session-flash-signed-out" hidden>You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
+  </div>
+  <template id="site-details-dialog">
+  <details class="details-reset details-overlay details-overlay-dark lh-default text-gray-dark hx_rsm" open>
+    <summary role="button" aria-label="Close dialog"></summary>
+    <details-dialog class="Box Box--overlay d-flex flex-column anim-fade-in fast hx_rsm-dialog hx_rsm-modal">
+      <button class="Box-btn-octicon m-0 btn-octicon position-absolute right-0 top-0" type="button" aria-label="Close dialog" data-close-dialog>
+        <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"></path></svg>
+      </button>
+      <div class="octocat-spinner my-6 js-details-dialog-spinner"></div>
+    </details-dialog>
+  </details>
+</template>
+
+  <div class="Popover js-hovercard-content position-absolute" style="display: none; outline: none;" tabindex="0">
+  <div class="Popover-message Popover-message--bottom-left Popover-message--large Box box-shadow-large" style="width:360px;">
+  </div>
+</div>
+
+
+  </body>
+</html>
+
